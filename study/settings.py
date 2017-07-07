@@ -39,6 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+CUSTOM_APPS = [
+    'apps.pic'
+]
+
+INSTALLED_APPS += CUSTOM_APPS
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -117,4 +123,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/classic/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static/classic/')
+
+# Media
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/upload/')
+MEDIA_URL = '/static/upload/'

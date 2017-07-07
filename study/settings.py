@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 ]
 
 CUSTOM_APPS = [
-    'apps.pic'
+    'apps.pic',
+    'apps.problems',
 ]
 
 INSTALLED_APPS += CUSTOM_APPS

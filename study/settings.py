@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 CUSTOM_APPS = [
@@ -130,3 +131,17 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static/classic/')
 # Media
 MEDIA_ROOT = os.path.join(BASE_DIR,'static/upload/')
 MEDIA_URL = '/static/upload/'
+
+# try:
+#     from config.common import *
+# except ImportError as e:
+#     print(e)
+#     pass
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}

@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
 
 from apps.auth.views import login
@@ -22,4 +22,6 @@ from apps.auth.views import login
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', login, name='index'),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^problem/', include('apps.problems.urls')),
 ]

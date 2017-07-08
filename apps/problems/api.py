@@ -6,9 +6,12 @@
 # @File    : api.py
 
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 
-from apps.problems.models import Problem
-from apps.problems.serializers import ProblemDetailSerializer
+from apps.problems.admin import ProbelmTempAdmin
+from apps.problems.models import Problem, ProbelmTemp
+from apps.problems.serializers import ProblemDetailSerializer, ProblemTempDetailListSerailizer
+from extensions.pagination import StandardResultsSetPagination
 
 
 class ProblemsListApi(generics.ListAPIView):
@@ -17,3 +20,9 @@ class ProblemsListApi(generics.ListAPIView):
     serializer_class = ProblemDetailSerializer
     queryset = Problem.objects.all()
 
+class ProblemTempListApi(generics.ListAPIView):
+    """题目列表"""
+    permission_classes = (IsAuthenticated,)
+    serializer_class = ProblemTempDetailListSerailizer
+    pagination_class = StandardResultsSetPagination
+    queryset = ProbelmTemp.objects.all()

@@ -25,7 +25,7 @@ SECRET_KEY = 'z615vhhjd$#d2%55y6@y$@!a_)j-%&)xbl(v)5gf+8#q_d7%d1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', '192.168.0.103']
 
 
 # Application definition
@@ -147,14 +147,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/classic/')
-# STATIC_URL = 'http://static.iadoreyou.xin/'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/upload/')
 MEDIA_URL = '/static/upload/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
+    ("js", os.path.join(STATIC_ROOT, 'js')),
+    ("css", os.path.join(STATIC_ROOT, 'css')),
+    ("images", os.path.join(STATIC_ROOT, 'images')),
 )
 
 STATICFILES_FINDERS = (

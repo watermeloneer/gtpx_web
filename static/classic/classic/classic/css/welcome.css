@@ -1,0 +1,108 @@
+body{
+	background: #eeeef3;
+	/*min-height: 100%;*/
+	/*height: 100%;*/
+	min-height: calc(99vh);
+}
+.wel-head{
+	height: 0.88rem;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 0.14rem 0;
+}
+.form-select{
+	display: inline-block;
+	width: 2.54rem;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.06rem 0.1rem;
+	outline: none;
+	height: 0.6rem;
+	border-radius: 0.04rem;
+	font-size: 0.36rem;
+}
+.form-select option{
+	text-align: center;
+	font-size: 0.32rem;
+}
+
+.wel-main{
+	margin: 0.04rem 0;
+	min-height: calc(86vh);
+	background: #fff;
+	font-size: 0.36rem;
+}
+
+.wel-main h2{
+	padding: 0.22rem 0.4rem 0.26rem 0.4rem;
+    font-size: 0.32rem;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+.wel-main-contain{
+	padding: 0rem 1.24rem 0.4rem 1.24rem;
+    font-size: 0.32rem;
+}
+.wel-main-contain p{
+	margin-bottom: 0.2rem;
+}
+.wel-main-contain img{
+	display: block;
+	padding-bottom: 0.44rem;
+	width: 100%;
+	height: auto;
+	max-height: 2.8rem;
+}
+.wel-contain-option{
+	font-size: 0.32rem;
+	line-height: 0.42rem;
+	
+}
+.wel-contain-option li{
+	padding: 0.2rem 0;
+}
+.wel-contain-option li i{
+	display: block;
+	float: left;
+	font-style: normal;
+	width: 8%;
+	max-width: 0.32rem;
+}
+.wel-contain-option li span{
+	display: block;
+	float: left;
+	width: 92%;
+}
+.wel-main-answer{
+	width: 100%;
+	text-align: center;
+	padding: 0.2rem 0 1.6rem;
+	color: #63b30d;
+}
+.wel-main-next{
+	display: block;
+	width: 100%;
+	color: #fff;
+	outline: none;
+	/*渐变*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#FF752E,endcolorstr=#FD471E,gradientType=1);
+	background:-moz-linear-gradient(left, #FF752E, #FD471E);
+	background:-webkit-gradient(linear, 0 0, right bottom, from(#FF752E), to(#FD471E));
+	/*box-shadow: 0 0.06rem 0.2rem #FF752E;*/
+	position: fixed;
+    bottom: 0;
+    height: 0.88rem;
+}
+@media (max-height:calc(99vh)) {
+	.wel-main-next{
+		position: fixed;
+    	bottom: 0;
+	}
+}
+@media (min-height:calc(100vh)) {
+	.wel-main-next{
+		position: none;
+    	bottom: 0;
+	}
+}

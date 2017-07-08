@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="UTF-8">
-    <title>首页</title>
-    <style type="text/css">
-        * {
-            margin:0;
-            padding: 0;
-        }
-
-        body {
-            width: 1000px;
-            height: 1000px;
-            margin: 0 auto;
-        }
-
-        .content {
-            width: 200px;
-            height: 180px;
-            margin-top: 200px;
-
-        }
-    </style>
-</head>
-<body>
-    <form class="content" action="/" method="post"> {% csrf_token %}
-        账号：
-        <input type="text" name="account">
-        <br>
-        密码：
-        <input type="password" name="password">
-        <br>
-        <input type="submit" value="登录">
-    </form>
-</body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>登陆</title>
+		<link rel="stylesheet" href="{{STATIC_URL}}css/common.css" />
+		<link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css" />
+		<link rel="stylesheet" href="{{STATIC_URL}}css/login.css" />
+		<script src="{{STATIC_URL}}js/jquery-1.9.1.min.js"></script>
+		<script src="{{STATIC_URL}}js/fontAuto.js"></script>
+	</head>
+	<body>
+		<div class="login-contain">
+			<div class="control-label">
+				<input type="text" class="form-control form-default fa-user" placeholder="请输入用户名" />
+			</div>
+			<div class="control-label">
+				<input type="text" class="form-control form-default fa-pwd" placeholder="请输入密码" />
+			</div>
+			<div class="control-span">
+				<a href="##">申请账号</a>
+				<a href="##">忘记密码？</a>
+			</div>
+			<div class="control-button">
+				<input type="button" class="form-submit" value="登陆" />
+			</div>
+		</div>
+	</body>
 </html>

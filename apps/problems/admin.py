@@ -1,21 +1,23 @@
 from django.contrib import admin
 
 # Register your models here.
-from apps.problems.models import Problem, Chapter, Course, ProbelmTemp, CategoryTemp, CourseTemp
+from apps.problems.models import ProbelmTemp, CategoryTemp, CourseTemp
 
 
-class ProblemAdmin(admin.ModelAdmin):
-    model = Problem
+#  Problem, Chapter, Course,
 
-
-
-class ChapterAdmin(admin.ModelAdmin):
-    model = Chapter
-
-
-
-class CourseAdmin(admin.ModelAdmin):
-    model = Course
+# class ProblemAdmin(admin.ModelAdmin):
+#     model = Problem
+#
+#
+#
+# class ChapterAdmin(admin.ModelAdmin):
+#     model = Chapter
+#
+#
+#
+# class CourseAdmin(admin.ModelAdmin):
+#     model = Course
 
 
 class CourseTempAdmin(admin.ModelAdmin):

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 CUSTOM_APPS = [
+    'apps.users',
     'apps.problems',
 ]
 
@@ -93,7 +94,7 @@ WSGI_APPLICATION = 'study.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'study',
+        'NAME': 'gtpx',
         'USER': 'root',
         'PASSWORD': 'Password123/',
         'HOST': 'localhost',
@@ -185,3 +186,5 @@ DATE_FORMAT = 'Y-m-d'
 DATETIME_FORMAT = 'Y-m-d H:i:s'
 SHORT_DATE_FORMAT = 'Y-m-d'
 SHORT_DATETIME_FORMAT = 'Y-m-d H:i:s'
+
+AUTH_USER_MODEL = 'users.User'

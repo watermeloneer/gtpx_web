@@ -27,7 +27,8 @@ def login(request):
             auth.login(request=request, user=user)
             if user.is_superuser:
                 """管理员账户"""
-                return HttpResponseRedirect('/admin')
+                return HttpResponseRedirect(reverse('admin:index'))
+                print("登录成功")
                 # return render(request, 'index.html')
             else:
                 """普通账户"""

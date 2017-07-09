@@ -8,7 +8,8 @@
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gtpx',
+        'NAME': 'gtpx_db',
+        # 'NAME': 'gtpx',
         'USER': 'root',
         'PASSWORD': 'Password123/',
         'HOST': 'localhost',

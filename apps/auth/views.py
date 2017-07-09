@@ -32,7 +32,7 @@ def login(request):
                 # return render(request, 'index.html')
             else:
                 """普通账户"""
-                return render(request, 'index.html')
+                return render(request, 'welcome.html')
         else:
             data = {"msg": '账户或密码错误'}
             return render(request, 'index.html', data)

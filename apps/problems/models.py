@@ -70,7 +70,7 @@ class ProbelmTemp(models.Model):
         (3, '图片题'),
     )
     course = models.IntegerField('所属课程id')
-    chapter = models.IntegerField('所属章节id')
+    chapter= models.IntegerField('所属章节id')
     num = models.IntegerField('序号', blank=True, null=True)
     title = models.CharField('标题', max_length=200, blank=True)
     choices = models.CharField('选择内容', max_length=500, blank=True)
@@ -102,7 +102,7 @@ class ChapterTemp(models.Model):
         verbose_name = verbose_name_plural = '知识模块(未处理)'
 
     def __str__(self):
-        return '项目:%s 记录:%s：%s' % (self.group, self.num, self.name)
+        return '项目:%s 记录:%s：%s' % (self.course, self.num, self.name)
 
 
 class CourseTemp(models.Model):

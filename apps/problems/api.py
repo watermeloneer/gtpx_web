@@ -25,8 +25,8 @@ class ProblemTempListApi(generics.ListAPIView):
         chapter = int(self.request.query_params.get('chapter', 0))
         category = self.request.query_params.get('category')
         filer_params = {'course': course, 'chapter': chapter}
-        if category :
-            filer_params['category'] = category
+        if category:
+            filer_params['category'] = int(category)
 
         return ProbelmTemp.objects.filter(**filer_params).order_by('id')
 

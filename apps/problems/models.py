@@ -63,22 +63,27 @@ class ProbelmTemp(models.Model):
     #     "radio": 0,
     #     "images": "yhpicture/nj_cz_t2_tp97.jpg"
     # }
-
-    group = models.IntegerField('所属章节id')
-    categoty = models.IntegerField('所属课程id')
+    CATEGORY_TYPES = (
+        (0, '单选题'),
+        (1, '判断题'),
+        (2, '多选题'),
+        (3, '图片题'),
+    )
+    course = models.IntegerField('所属课程id')
+    chapter = models.IntegerField('所属章节id')
     num = models.IntegerField('序号', blank=True, null=True)
     title = models.CharField('标题', max_length=200, blank=True)
     choices = models.CharField('选择内容', max_length=500, blank=True)
     answers = models.CharField('答案', max_length=20, blank=True)
-    images = models.CharField('图片', max_length=200, blank=True)
-    radio = models.IntegerField('题目类型')
+    images = models.ImageField('图片', upload_to='yhpicture', max_length=200, blank=True)
+    category = models.IntegerField('题目类型', choices=CATEGORY_TYPES, default=0)
 
     class Meta:
         db_table = 'problem_temp'
         verbose_name = verbose_name_plural = '题目(未处理)'
 
     def __str__(self):
-        return '项目:%s 知识模块:%s 记录:%s' % (self.group, self.categoty, self.title)
+        return '项目:%s 知识模块:%s 记录:%s' % (self.course, self.chapter, self.title)
 
 
 class CategoryTemp(models.Model):

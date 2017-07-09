@@ -7,7 +7,7 @@
 
 
 from rest_framework import serializers
-from apps.problems.models import ProbelmTemp
+from apps.problems.models import ProbelmTemp, CategoryTemp, CourseTemp
 
 
 # Course, Chapter, Problem,
@@ -42,6 +42,9 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
     """题目详情列表"""
 
     choices = serializers.SerializerMethodField('get_choices_list')
+    category = serializers.SerializerMethodField('get_category_doc')
+    course = serializers.SerializerMethodField('get_course_doc')
+    chapter = serializers.SerializerMethodField('get_chapter_doc')
 
     def get_choices_list(self, obj):
         if obj.choices:
@@ -49,6 +52,15 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
         else:
             return []
 
+    def get_category_doc(self, obj):
+        return obj.get_category_display()
+
+    def get_course_doc(self, obj):
+        return CourseTemp.objects.get(num=obj.course).name
+
+    def get_chapter_doc(self, obj):
+        return CategoryTemp.objects.get(num=obj.chapter, group=obj.course).name
+
     class Meta:
         model = ProbelmTemp
-        fields = ('categoty', 'num', 'title', 'choices', 'answers', 'images', 'radio')
+        fields = ('course', 'chapter', 'title', 'choices', 'answers', 'images', 'category')

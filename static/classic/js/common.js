@@ -76,7 +76,7 @@ $(function () {
                     previousTitle = resopnse.previous;
                     var titleNum = GetRequest(nextTitle) - 1;
                     $('#titleImage').attr('src',imgSrc);
-                    $("#titleOption").append('');
+                    $("#titleOption").empty();
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }
@@ -98,7 +98,7 @@ $(function () {
             url:"/problem/chapters/list",
             success: function (response) {
                 var chapterlist = response.results;
-                $("#chapterlist").append('');
+                $("#chapterlist").remove();
                 for(var i=0;i<chapterlist.length;i++){
                     $("#chapterlist").append('<option value="'+ i +'">'+ chapterlist[i]+'</option>');
                 }

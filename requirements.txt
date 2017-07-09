@@ -4,6 +4,7 @@ Django==1.11
 django-cors-headers==2.1.0
 django-filter==1.0.4
 djangorestframework==3.6.3
+gunicorn==19.7.1
 ipython==6.1.0
 ipython-genutils==0.2.0
 jedi==0.10.2

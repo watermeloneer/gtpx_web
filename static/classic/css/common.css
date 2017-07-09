@@ -1,7 +1,7 @@
 @charset "utf-8";
 html{ font-size: 625%; min-height: 100%;}
-body{ background:#fafafa; font-family:"Ping Fang,微软雅黑";  min-width: 320px; 
-		margin: 0 auto; font-size: 0.24rem; min-height: 100%;}
+body{ background:#fafafa; font-family:"Ping Fang,微软雅黑";  min-width: 320px;
+	margin: 0 auto; font-size: 0.24rem; min-height: 100%;}
 body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,dl,dd,dt,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
 input,button{ cursor: pointer; -webkit-appearance: none;}
 li{ list-style:none;}
@@ -14,7 +14,7 @@ a:hover{ color:#000;}
 
 .select{
 	margin: 0 auto;
-	width: 2.54rem;
+	width: 5rem;
 	height: 100%;
 	position: relative;
 }
@@ -24,26 +24,27 @@ a:hover{ color:#000;}
 	padding-right: 24%;
 	border: 1px solid #C6C6C6;
 	border-radius: 0.04rem;
-	background: url(../images/common/select-bg.png) no-repeat 92% center / 12% auto;
+	background: url(../images/common/select-bg.png) no-repeat 92% center / 20px auto;
+	text-align: center;
 }
 .select select{
 	position: absolute;
 	top: 0;
-    left: 0;
+	left: 0;
 	width: 100%;
-    height: 100%;
-    text-align: center;
-    border: none;
-    padding-left: 26%;
-    /*将默认的select选择框样式清除*/
-  	appearance:none;
-  	-moz-appearance:none;
-  	-webkit-appearance:none;
-  	/*IE*/
-  	background-color: transparent;
-  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF, endColorstr=#FFF);
+	height: 100%;
+	text-align: center;
+	border: none;
+	padding-left: 5%;
+	/*将默认的select选择框样式清除*/
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	/*IE*/
+	background-color: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF, endColorstr=#FFF);
 	/*针对FF，谷歌等浏览器 */
-	background-color:rgba(255,255,255,0)<!--最后一个参数设置透明度，前面三个是RGB颜色值-->
+	background-color:rgba(255,255,255,0)
 }
 .select option{
 	width: 100%;

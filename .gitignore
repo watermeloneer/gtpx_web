@@ -234,3 +234,4 @@ ENV/
 
 *.idea/
 .idea/workspace.xml
+/.idea

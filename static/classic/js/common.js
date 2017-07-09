@@ -6,8 +6,8 @@ $(function () {
     页面初始化执行函数
      */
     dataList = '';
-    chapterListtest();
-    submitInfotest();
+    chapterList();
+    submitInfo();
     getChapterNumber();
     function chapterListtest() {
         var response = {
@@ -103,6 +103,7 @@ $(function () {
                         var titleNum = GetRequest(previousTitle) + 1;
                     }
                     $('#titleImage').attr('src',imgSrc);
+                    $("#titleOption").append('');
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }
@@ -178,6 +179,7 @@ $(function () {
                     previousTitle = resopnse.previous;
                     var titleNum = GetRequest(nextTitle) - 1;
                     $('#titleImage').attr('src',imgSrc);
+                    $("#titleOption").append('');
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }

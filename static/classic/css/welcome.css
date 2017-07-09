@@ -5,10 +5,8 @@ body{
 	min-height: calc(99vh);
 }
 .wel-head{
-	height: 0.88rem;
 	width: 100%;
 	background: #fff;
-	text-align: center;
 	padding: 0.14rem 0;
 }
 .form-select{
@@ -97,7 +95,11 @@ body{
 
 .wel-main-next{
 	display: inline-block;
-	width: 49%;
+	float: left;
+	width: 1.2rem;
+	border-radius: 50%;
+	font-size: 14px;
+	margin: 4%;
 	color: #fff;
 	outline: none;
 	/*渐变*/
@@ -105,15 +107,30 @@ body{
 	background:-moz-linear-gradient(left, #FF752E, #FD471E);
 	background:-webkit-gradient(linear, 0 0, right bottom, from(#FF752E), to(#FD471E));
 	/*box-shadow: 0 0.06rem 0.2rem #FF752E;*/
-	height: 0.88rem;
+	height: 1.2rem;
 }
 
+
+.welmain-btn{
+	margin-top: 15px;
+}
 .welmain-btn button{
+	padding:5px 0;
 	border-radius: 2px;
-	background: #3385ff;
-	color: #fff;
-	font-size:0.3rem;
+	font-size:0.25rem;
 	border:0;
+	width:17%;
+	margin-left: 5%;
+}
+
+
+.topicTypebtn_active{
+	background: #FD471E;
+	color: #fff;
+}
+.topicTypebtn{
+	background: #eeedf3;
+	color:#bdbcc1
 }
 @media (max-height:calc(99vh)) {
 	.wel-main-next{

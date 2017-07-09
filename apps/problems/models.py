@@ -79,14 +79,14 @@ class ProbelmTemp(models.Model):
     category = models.IntegerField('题目类型', choices=CATEGORY_TYPES, default=0)
 
     class Meta:
-        db_table = 'problem_temp'
+        db_table = 'problems_temp'
         verbose_name = verbose_name_plural = '题目(未处理)'
 
     def __str__(self):
         return '项目:%s 知识模块:%s 记录:%s' % (self.course, self.chapter, self.title)
 
 
-class CategoryTemp(models.Model):
+class ChapterTemp(models.Model):
     # {
     #     "num": 10,
     #     "group": 0,
@@ -94,11 +94,11 @@ class CategoryTemp(models.Model):
     # }
 
     num = models.IntegerField('知识模块id')
-    group = models.IntegerField('所属项目num')
+    course = models.IntegerField('所属项目num')
     name = models.CharField('知识模块', max_length=100)
 
     class Meta:
-        db_table = 'category_temp'
+        db_table = 'chapters_temp'
         verbose_name = verbose_name_plural = '知识模块(未处理)'
 
     def __str__(self):
@@ -110,7 +110,7 @@ class CourseTemp(models.Model):
     name = models.CharField('项目名称', max_length=100)
 
     class Meta:
-        db_table = 'course_temp'
+        db_table = 'courses_temp'
         verbose_name = verbose_name_plural = '项目(未处理)'
 
     def __str__(self):

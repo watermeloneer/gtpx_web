@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a750c976-0b06-4a70-addc-6c762d224f4c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/upload/pic/2017/07/05/5037239a-47bf-43e5-9929-e2d1c49be0e8.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/problems/api.py" afterPath="$PROJECT_DIR$/apps/problems/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/problems/admin.py" afterPath="$PROJECT_DIR$/apps/problems/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/problems/models.py" afterPath="$PROJECT_DIR$/apps/problems/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/problems/serializers.py" afterPath="$PROJECT_DIR$/apps/problems/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study/settings.py" afterPath="$PROJECT_DIR$/study/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/apis.md" afterPath="$PROJECT_DIR$/docs/apis.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/apps/problems/api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="e#143#178#0" expanded="true" />
               </folding>
@@ -93,8 +90,8 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/problems/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="253">
+              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding>
                 <element signature="e#152#190#0" expanded="true" />
               </folding>
@@ -102,12 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apis.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/problems/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apis.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/apis.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="32">
-                <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <first_editor relative-caret-position="488">
+                <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -142,8 +151,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/problems/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="107" column="16" lean-forward="false" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="185">
+              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -153,16 +162,6 @@
         <entry file="file://$PROJECT_DIR$/static/upload/yhpicture/nj_cz_t2_tp7.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="225" column="5" lean-forward="false" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -205,7 +204,6 @@
         <option value="$PROJECT_DIR$/apps/auth/views.py" />
         <option value="$PROJECT_DIR$/apps/problems/urls.py" />
         <option value="$PROJECT_DIR$/extensions/pagination.py" />
-        <option value="$PROJECT_DIR$/apps/problems/admin.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/apps/users/admin.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -213,9 +211,10 @@
         <option value="$PROJECT_DIR$/apps/problems/filters.py" />
         <option value="$PROJECT_DIR$/study/settings.py" />
         <option value="$PROJECT_DIR$/apps/problems/api.py" />
+        <option value="$PROJECT_DIR$/docs/apis.md" />
         <option value="$PROJECT_DIR$/apps/problems/models.py" />
         <option value="$PROJECT_DIR$/apps/problems/serializers.py" />
-        <option value="$PROJECT_DIR$/docs/apis.md" />
+        <option value="$PROJECT_DIR$/apps/problems/admin.py" />
       </list>
     </option>
   </component>
@@ -731,16 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/problems/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -931,6 +920,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="185" column="60" lean-forward="false" selection-start-line="185" selection-start-column="60" selection-end-line="185" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="488">
+            <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/problems/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#143#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/problems/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -941,18 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="185" column="60" lean-forward="false" selection-start-line="185" selection-start-column="60" selection-end-line="185" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/problems/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="253">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding>
             <element signature="e#152#190#0" expanded="true" />
           </folding>
@@ -961,32 +973,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/problems/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="107" column="16" lean-forward="false" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="185">
+          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/problems/api.py">
+    <entry file="file://$PROJECT_DIR$/apps/problems/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#143#178#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/apis.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="32">
-            <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>

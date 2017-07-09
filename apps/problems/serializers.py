@@ -7,7 +7,7 @@
 
 
 from rest_framework import serializers
-from apps.problems.models import ProbelmTemp, CategoryTemp, CourseTemp
+from apps.problems.models import ProbelmTemp, ChapterTemp, CourseTemp
 
 
 # Course, Chapter, Problem,
@@ -59,8 +59,10 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
         return CourseTemp.objects.get(num=obj.course).name
 
     def get_chapter_doc(self, obj):
-        return CategoryTemp.objects.get(num=obj.chapter, group=obj.course).name
+        return ChapterTemp.objects.get(num=obj.chapter, course=obj.course).name
 
     class Meta:
         model = ProbelmTemp
         fields = ('course', 'chapter', 'title', 'choices', 'answers', 'images', 'category')
+
+

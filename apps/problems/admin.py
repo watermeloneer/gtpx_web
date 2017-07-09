@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from apps.problems.models import ProbelmTemp, CategoryTemp, CourseTemp
+from apps.problems.models import ProbelmTemp, ChapterTemp, CourseTemp
 
 
 #  Problem, Chapter, Course,
@@ -25,7 +25,7 @@ class CourseTempAdmin(admin.ModelAdmin):
 
 
 class CategoryTempAdmin(admin.ModelAdmin):
-    model = CategoryTemp
+    model = ChapterTemp
 
 
 class ProbelmTempAdmin(admin.ModelAdmin):
@@ -36,5 +36,5 @@ class ProbelmTempAdmin(admin.ModelAdmin):
 # admin.site.register(Chapter, ChapterAdmin)
 # admin.site.register(Problem, ProblemAdmin)
 admin.site.register(CourseTemp, CourseTempAdmin)
-admin.site.register(CategoryTemp, CategoryTempAdmin)
+admin.site.register(ChapterTemp, CategoryTempAdmin)
 admin.site.register(ProbelmTemp, ProbelmTempAdmin)

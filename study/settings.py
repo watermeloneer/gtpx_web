@@ -195,3 +195,22 @@ SHORT_DATE_FORMAT = 'Y-m-d'
 SHORT_DATETIME_FORMAT = 'Y-m-d H:i:s'
 
 AUTH_USER_MODEL = 'users.User'
+
+
+import os
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+        },
+    },
+}

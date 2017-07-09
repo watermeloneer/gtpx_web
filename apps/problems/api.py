@@ -9,8 +9,8 @@ from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 
 from apps.problems.admin import ProbelmTempAdmin
-from apps.problems.models import ProbelmTemp
-from apps.problems.serializers import ProblemTempDetailListSerailizer
+from apps.problems.models import ProbelmTemp, ChapterTemp
+from apps.problems.serializers import ProblemTempDetailListSerailizer, ChapterTempListSerializer
 from extensions.pagination import StandardResultsSetPagination
 
 
@@ -28,4 +28,15 @@ class ProblemTempListApi(generics.ListAPIView):
         if category :
             filer_params['category'] = category
 
-        return ProbelmTemp.objects.filter(**filer_params)
+        return ProbelmTemp.objects.filter(**filer_params).order_by('id')
+
+
+class ChapterTempListApi(generics.ListAPIView):
+    """章节列表"""
+
+    permission_classes = (IsAuthenticated,)
+    serializer_class = ChapterTempListSerializer
+
+    def get_queryset(self):
+        course = self.request.user.choices
+        return ChapterTemp.objects.filter(course=course).order_by('id')

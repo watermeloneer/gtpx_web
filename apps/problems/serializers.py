@@ -66,3 +66,9 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
         fields = ('course', 'chapter', 'title', 'choices', 'answers', 'images', 'category')
 
 
+class ChapterTempListSerializer(serializers.ModelSerializer):
+    """章节列表"""
+
+    class Meta:
+        model = ChapterTemp
+        fields = ('num', 'name')

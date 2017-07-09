@@ -12,6 +12,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+
+RUN_ENV = os.getenv("RUN_ENV",default='dev')
+if RUN_ENV == "deploy":
+    from config.prod import *
+else:
+    from config.dev import *
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -95,16 +101,7 @@ WSGI_APPLICATION = 'study.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gtpx',
-        'USER': 'root',
-        'PASSWORD': 'Password123/',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -200,7 +197,6 @@ SHORT_DATETIME_FORMAT = 'Y-m-d H:i:s'
 AUTH_USER_MODEL = 'users.User'
 
 
-import os
 
 LOGGING = {
     'version': 1,

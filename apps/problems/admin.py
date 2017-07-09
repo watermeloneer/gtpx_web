@@ -23,13 +23,22 @@ from apps.problems.models import ProbelmTemp, ChapterTemp, CourseTemp
 class CourseTempAdmin(admin.ModelAdmin):
     model = CourseTemp
 
+    # def get_readonly_fields(self, request, obj=None):
+    #     return [f.name for f in self.model._meta.fields]
+
 
 class CategoryTempAdmin(admin.ModelAdmin):
     model = ChapterTemp
 
+    def get_readonly_fields(self, request, obj=None):
+        return [f.name for f in self.model._meta.fields]
+
 
 class ProbelmTempAdmin(admin.ModelAdmin):
     model = ProbelmTemp
+
+    def get_readonly_fields(self, request, obj=None):
+        return [f.name for f in self.model._meta.fields]
 
 
 # admin.site.register(Course, CourseAdmin)

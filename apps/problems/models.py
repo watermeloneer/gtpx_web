@@ -102,7 +102,7 @@ class ChapterTemp(models.Model):
         verbose_name = verbose_name_plural = '知识模块(未处理)'
 
     def __str__(self):
-        return '项目:%s 记录:%s：%s' % (self.group, self.num, self.name)
+        return '项目:%s 记录:%s：%s' % (self.course, self.num, self.name)
 
 
 class CourseTemp(models.Model):

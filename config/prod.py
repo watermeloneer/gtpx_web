@@ -6,6 +6,8 @@
 # @File    : prod.py
 
 # database
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
 
 DATABASES = {
     'default': {

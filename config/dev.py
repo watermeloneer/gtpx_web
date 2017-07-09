@@ -5,6 +5,9 @@
 # @email  : zaihuazhao@163.com
 # @File    : dev.py
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',

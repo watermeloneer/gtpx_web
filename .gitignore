@@ -233,5 +233,3 @@ ENV/
 .ropeproject
 
 *.idea/
-.idea/workspace.xml
-/.idea

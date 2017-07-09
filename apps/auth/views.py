@@ -12,7 +12,10 @@ def login(request):
 
     if request.method=='GET':
         if request.user.is_authenticated():
-            return HttpResponseRedirect(reverse('admin:index'))
+            if request.user.is_superuser:
+                return HttpResponseRedirect(reverse('admin:index'))
+            else:
+                return render(request, 'welcome.html')
         else:
             return render(request, 'index.html')
     elif request.method=='POST':

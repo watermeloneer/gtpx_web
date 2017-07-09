@@ -24,9 +24,10 @@
 </div>
 <div class="wel-main">
 	<h2 id="titleNum">第一题：</h2>
+    <div id="totalcount" class="totalcount"></div>
 	<div class="wel-main-contain">
 		<p>根据以下现象选择正确的观点：</p>
-		<img src="" alt="加载失败" id="titleImage"/>
+		<img src="" alt="没有图片" id="titleImage" style="color:#FD471E"/>
 		<ul class="wel-contain-option" id="titleOption">
 		</ul>
 	</div>
@@ -38,9 +39,10 @@
 		<input type="button" class="wel-main-next" value="第一题" onclick="switchFirst()"/>
 		<input type="button" class="wel-main-next" value="上一题" onclick="switchPre()"/>
 		<input type="button" class="wel-main-next" value="下一题" onclick="switchNext()"/>
-		<input type="button" class="wel-main-next" value="最后一题" onclick="switchLast()" disabled="disabled"/>
+		<input type="button" class="wel-main-next" value="最后一题" onclick="switchLast()"/>
 	</div>
 </div>
+<div class="notitle">暂无本类题型</div>
 </body>
 <script src="{{STATIC_URL}}js/jquery-1.9.1.min.js"></script>
 <script src="{{STATIC_URL}}js/fontAuto.js"></script>

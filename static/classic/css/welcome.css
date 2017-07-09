@@ -37,6 +37,20 @@ body{
 	font-size: 0.32rem;
 	margin-bottom: 0;
 	margin-top: 0.2rem;
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.totalcount{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0.4rem;
+	font-size: 0.25rem;
+	margin-bottom: 0;
+	margin-top: 0.2rem;
+	width: 50%;
+	text-align: right;
 }
 .wel-main-contain{
 	padding: 0rem 1.24rem 0.4rem 1.24rem;
@@ -131,6 +145,16 @@ body{
 .topicTypebtn{
 	background: #eeedf3;
 	color:#bdbcc1
+}
+
+.notitle{
+	height: calc(100vh - 50px);
+	background: #ffffff;
+	display: none;
+	width: 100%;
+	font-size:20px;
+	padding:10px;
+	text-align: center;
 }
 @media (max-height:calc(99vh)) {
 	.wel-main-next{

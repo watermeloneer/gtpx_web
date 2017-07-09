@@ -6,10 +6,10 @@ body{
 }
 .wel-head{
 	height: 0.88rem;
-    width: 100%;
-    background: #fff;
-    text-align: center;
-    padding: 0.14rem 0;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	padding: 0.14rem 0;
 }
 .form-select{
 	display: inline-block;
@@ -36,13 +36,13 @@ body{
 
 .wel-main h2{
 	padding: 0.22rem 0.4rem 0.26rem 0.4rem;
-    font-size: 0.32rem;
-    margin-bottom: 0;
-    margin-top: 0.2rem;
+	font-size: 0.32rem;
+	margin-bottom: 0;
+	margin-top: 0.2rem;
 }
 .wel-main-contain{
 	padding: 0rem 1.24rem 0.4rem 1.24rem;
-    font-size: 0.32rem;
+	font-size: 0.32rem;
 }
 .wel-main-contain p{
 	margin-bottom: 0.2rem;
@@ -57,7 +57,7 @@ body{
 .wel-contain-option{
 	font-size: 0.32rem;
 	line-height: 0.42rem;
-	
+
 }
 .wel-contain-option li{
 	padding: 0.2rem 0;
@@ -80,9 +80,24 @@ body{
 	padding: 0.2rem 0 1.6rem;
 	color: #63b30d;
 }
-.wel-main-next{
+
+.wel-main-nextparent{
+	position: fixed;
+	bottom: 0.95rem;
 	display: block;
 	width: 100%;
+}
+.wel-main-nextparent2{
+	position: fixed;
+	bottom: 0rem;
+	display: block;
+	width: 100%;
+	background: #fff;
+}
+
+.wel-main-next{
+	display: inline-block;
+	width: 49%;
 	color: #fff;
 	outline: none;
 	/*渐变*/
@@ -90,19 +105,25 @@ body{
 	background:-moz-linear-gradient(left, #FF752E, #FD471E);
 	background:-webkit-gradient(linear, 0 0, right bottom, from(#FF752E), to(#FD471E));
 	/*box-shadow: 0 0.06rem 0.2rem #FF752E;*/
-	position: fixed;
-    bottom: 0;
-    height: 0.88rem;
+	height: 0.88rem;
+}
+
+.welmain-btn button{
+	border-radius: 2px;
+	background: #3385ff;
+	color: #fff;
+	font-size:0.3rem;
+	border:0;
 }
 @media (max-height:calc(99vh)) {
 	.wel-main-next{
 		position: fixed;
-    	bottom: 0;
+		bottom: 0;
 	}
 }
 @media (min-height:calc(100vh)) {
 	.wel-main-next{
-		position: none;
-    	bottom: 0;
+		/*position: none;*/
+		bottom: 0;
 	}
 }

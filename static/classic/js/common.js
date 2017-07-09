@@ -98,7 +98,7 @@ $(function () {
             url:"/problem/chapters/list",
             success: function (response) {
                 var chapterlist = response.results;
-                $("#chapterlist").remove();
+                $("#chapterlist").empty();
                 for(var i=0;i<chapterlist.length;i++){
                     $("#chapterlist").append('<option value="'+ i +'">'+ chapterlist[i]+'</option>');
                 }

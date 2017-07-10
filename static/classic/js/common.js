@@ -92,6 +92,10 @@ function submitInfo(url) {
                     var titlestr = resopnse.results[0].title;
                     var titles  = titlestr.substr(1);
                     var title = titles.split("、");
+                    var titlesub = "";
+                    for(var i =1; i<title.length;i++){
+                        titlesub+=title[i];
+                    }
                     nextTitle = resopnse.next;
                     previousTitle = resopnse.previous;
                     count = resopnse.count;
@@ -111,7 +115,7 @@ function submitInfo(url) {
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }
-                    $("#title").text(title[1]);
+                    $("#title").text(titlesub);
                     $('#answer').text('正确答案：'+ answer);
                     $('#totalcount').text('总共：'+ count + '题');
                     $('#titleNum').text('第 ' + titleNum + ' 题：');

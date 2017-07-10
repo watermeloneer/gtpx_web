@@ -36,7 +36,7 @@ MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = (
     os.path.join(ROOT_DIR, "static"),
-    ("js", os.path.join(STATIC_ROOT, 'js')),
-    ("css", os.path.join(STATIC_ROOT, 'css')),
-    ("images", os.path.join(STATIC_ROOT, 'images')),
+    # ("js", os.path.join(STATIC_ROOT, 'js')),
+    # ("css", os.path.join(STATIC_ROOT, 'css')),
+    # ("images", os.path.join(STATIC_ROOT, 'images')),
 )

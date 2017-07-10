@@ -73,11 +73,12 @@ function getChapterNumber() {
  切换题目
  */
 function submitInfo(url) {
-    $("#titleOption").empty();
+    $("#modal1").css("display","block");
     $.ajax({
             type:"GET",
             url:url,
             success : function (resopnse) {
+                $("#titleOption").empty();
                 if(resopnse.count == 0){
                     $(".notitle").css("display","block");
                     $(".wel-main").css("display","none");
@@ -87,6 +88,9 @@ function submitInfo(url) {
                     var imgSrc = resopnse.results[0].images;
                     var Option = resopnse.results[0].choices;
                     var answer = resopnse.results[0].answers;
+                    var titlestr = resopnse.results[0].title;
+                    var titles  = titlestr.substr(1);
+                    var title = titles.split("、");
                     nextTitle = resopnse.next;
                     previousTitle = resopnse.previous;
                     count = resopnse.count;
@@ -106,10 +110,11 @@ function submitInfo(url) {
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }
-
+                    $("#title").text(title);
                     $('#answer').text('正确答案：'+ answer);
                     $('#totalcount').text('总共：'+ count + '题');
                     $('#titleNum').text('第 ' + titleNum + ' 题：');
+                    $("#modal1").css("display","none");
                 }
 
             }

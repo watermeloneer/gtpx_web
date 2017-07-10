@@ -7,7 +7,7 @@ body{
 .wel-head{
 	width: 100%;
 	background: #fff;
-	padding: 0.14rem 0;
+	padding: 0.2rem 0 0.5rem 0;
 }
 .form-select{
 	display: inline-block;

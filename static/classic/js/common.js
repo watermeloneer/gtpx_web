@@ -82,6 +82,7 @@ function submitInfo(url) {
                 if(resopnse.count == 0){
                     $(".notitle").css("display","block");
                     $(".wel-main").css("display","none");
+                    $("#modal1").css("display","none");
                 }else{
                     $(".wel-main").css("display","block");
                     $(".notitle").css("display","none");

@@ -110,7 +110,7 @@ function submitInfo(url) {
                     for(var i = 0; i<Option.length; i++){
                         $("#titleOption").append('<li class="clearfix"><span>'+ Option[i] +'</span></li>');
                     }
-                    $("#title").text(title);
+                    $("#title").text(title[1]);
                     $('#answer').text('正确答案：'+ answer);
                     $('#totalcount').text('总共：'+ count + '题');
                     $('#titleNum').text('第 ' + titleNum + ' 题：');

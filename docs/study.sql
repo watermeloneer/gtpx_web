@@ -1,1 +1,0 @@
-CREATE TABLE "problems" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "num" integer NULL, "title" varchar(200) NOT NULL, "choices" varchar(500) NOT NULL, "answers" varchar(20) NOT NULL, "images" varchar(200) NOT NULL, "kind" integer NOT NULL, "chapter_id" integer NOT NULL REFERENCES "chapters" ("id"), "course_id" integer NOT NULL REFERENCES "courses" ("id"));

@@ -19,7 +19,7 @@ $(function () {
 
 function selectAll(index) {
     controlBtn(index);
-    var url = '/problem/list/?chapter=' + chapter +'&category=0';
+    var url = '/problem/list/?chapter=' + chapter;
     submitInfo(url);
 }//全部
 function selectSingle(index) {

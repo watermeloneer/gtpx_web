@@ -1,7 +1,8 @@
-from django.contrib import admin
+# -*- conding:utf-8 -*-
 
-# Register your models here.
+from django.contrib import admin
 from apps.users.models import User
+
 
 
 class UserAdmin(admin.ModelAdmin):
@@ -12,3 +13,5 @@ class UserAdmin(admin.ModelAdmin):
 
 
 admin.site.register(User, UserAdmin)
+admin.AdminSite.site_header ='国通培训管理系统'
+admin.AdminSite.site_title = '国通培训管理系统'

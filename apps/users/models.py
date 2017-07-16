@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from django.contrib.auth.base_user import BaseUserManager, AbstractBaseUser
+from django.contrib.auth.hashers import make_password
 from django.contrib.auth.models import PermissionsMixin
 from django.db import models
 
@@ -67,3 +68,9 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.account
+
+    def save(self, *args, **kwargs):
+        if not len(self.password) == 32:# 设置密码
+            self.password = make_password(self.password)
+        super(User, self).save(*args, **kwargs)
+

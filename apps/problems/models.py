@@ -80,7 +80,7 @@ class ProbelmTemp(models.Model):
 
     class Meta:
         db_table = 'problems_temp'
-        verbose_name = verbose_name_plural = '题目(未处理)'
+        verbose_name = verbose_name_plural = '题目'
 
     def __str__(self):
         return '项目:%s 知识模块:%s 记录:%s' % (self.course, self.chapter, self.title)
@@ -99,7 +99,7 @@ class ChapterTemp(models.Model):
 
     class Meta:
         db_table = 'chapters_temp'
-        verbose_name = verbose_name_plural = '知识模块(未处理)'
+        verbose_name = verbose_name_plural = '知识模块'
 
     def __str__(self):
         return '项目:%s 记录:%s：%s' % (self.course, self.num, self.name)
@@ -111,7 +111,7 @@ class CourseTemp(models.Model):
 
     class Meta:
         db_table = 'courses_temp'
-        verbose_name = verbose_name_plural = '项目(未处理)'
+        verbose_name = verbose_name_plural = '培训项目'
 
     def __str__(self):
         return '%s：%s' % (self.num, self.name)

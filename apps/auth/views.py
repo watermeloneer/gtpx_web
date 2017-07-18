@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 from django.contrib import auth
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, logout
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
@@ -31,8 +31,6 @@ def login(request):
             if user.is_superuser:
                 """管理员账户"""
                 return HttpResponseRedirect(reverse('admin:index'))
-                print("登录成功")
-                # return render(request, 'index.html')
             else:
                 """普通账户"""
                 return render(request, 'welcome.html')
@@ -41,3 +39,10 @@ def login(request):
             return render(request, 'index.html', data)
     else:
         return HttpResponseRedirect(reverse('index'))
+
+
+def logout_site(request):
+    """退出登登录"""
+
+    logout(request)
+    return render(request, 'index.html')

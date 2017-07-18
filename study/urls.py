@@ -17,13 +17,14 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
-from apps.auth.views import login
+from apps.auth.views import login, logout_site
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', login, name='index'),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^problem/', include('apps.problems.urls')),
+    url(r'^logout/$', logout_site, name='logout')
 ]
 
 if settings.DEBUG:

@@ -13,7 +13,9 @@ a:hover{ color:#000;}
 .clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;font-size: 0;}
 
 .select{
-	margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
 	width: 5rem;
 	height: 0.66rem;
 	position: relative;

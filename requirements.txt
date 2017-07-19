@@ -3,7 +3,10 @@ decorator==4.0.11
 Django==1.11
 django-cors-headers==2.1.0
 django-filter==1.0.4
+#django-haystack==2.6.1
+django-redis==4.8.0
 djangorestframework==3.6.3
+#elasticsearch==5.1.0
 gevent==1.2.2
 greenlet==0.4.12
 gunicorn==19.7.1
@@ -20,7 +23,9 @@ prompt-toolkit==1.0.14
 ptyprocess==0.5.2
 Pygments==2.2.0
 pytz==2017.2
+redis==2.10.5
 simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.3.2
+#urllib3==1.21.1
 wcwidth==0.1.7

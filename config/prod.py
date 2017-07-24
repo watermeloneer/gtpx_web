@@ -13,27 +13,27 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DEBUG = False
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'gtpx_db',
-#         'USER': 'root',
-#         'PASSWORD': 'password123/',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gtpx_db',
         'USER': 'root',
-        'PASSWORD': 'rootAdmin@123',
-        'HOST': '597378224c91b.gz.cdb.myqcloud.com',
-        'PORT': '5124',
+        'PASSWORD': 'password123/',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'gtpx_db',
+#         'USER': 'root',
+#         'PASSWORD': 'rootAdmin@123',
+#         'HOST': '597378224c91b.gz.cdb.myqcloud.com',
+#         'PORT': '5124',
+#     }
+# }
 
 
 # Static files (CSS, JavaScript, Images)

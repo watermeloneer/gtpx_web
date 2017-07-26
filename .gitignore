@@ -233,3 +233,4 @@ ENV/
 .ropeproject
 
 *.idea/
+config/dev.py

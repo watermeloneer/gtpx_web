@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
     'gunicorn',
+    'django_extensions',
 ]
 
 CUSTOM_APPS = [

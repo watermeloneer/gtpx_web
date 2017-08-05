@@ -1,0 +1,10 @@
+[{"num": 0, "group": 4, "name": "法规知识"},
+{"num": 1, "group": 4, "name": "基础知识"},
+{"num": 2, "group": 4, "name": "安全法知识"},
+{"num": 3, "group": 4, "name": "专业知识"},
+{"num": 4, "group": 4, "name": "管理知识"},
+{"num": 0, "group": 5, "name": "安全知识"},
+{"num": 1, "group": 5, "name": "法规知识"},
+{"num": 2, "group": 5, "name": "基础知识"},
+{"num": 3, "group": 5, "name": "专业知识"},
+{"num": 4, "group": 5, "name": "安全法知识"}]

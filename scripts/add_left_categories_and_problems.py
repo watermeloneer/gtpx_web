@@ -19,10 +19,9 @@ def run():
 
 
 def create_chapters():
-    """导入章节数据"""
 
     path = os.path.join(DATA_DIR, 'category_left.txt')
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         data = json.load(f)
         for line in data:
             chapter = ChapterTemp(num=line['num'], course=line['group'], name=line['name'] )
@@ -34,7 +33,7 @@ def create_problems():
     """导入题目"""
 
     path = os.path.join(DATA_DIR, 'problems_left.txt')
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         data = json.load(f)
         for line in data:
             # print(line)

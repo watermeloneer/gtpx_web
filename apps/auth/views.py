@@ -6,6 +6,8 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.utils.html import strip_tags
 
+from apps.auth.cache import cache_session_key_for_request
+
 
 def login(request):
     """登录模块"""
@@ -28,6 +30,7 @@ def login(request):
         user = authenticate(username=account, password=password)
         if user:
             auth.login(request=request, user=user)
+            cache_session_key_for_request(request) # 同时只能登录一个用户
             if user.is_superuser:
                 """管理员账户"""
                 return HttpResponseRedirect(reverse('admin:index'))

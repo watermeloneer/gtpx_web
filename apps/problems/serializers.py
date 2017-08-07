@@ -10,32 +10,6 @@ from rest_framework import serializers
 from apps.problems.models import ProbelmTemp, ChapterTemp, CourseTemp
 
 
-# Course, Chapter, Problem,
-
-# class CourseDetailSerializers(serializers.ModelSerializer):
-#     """课程详情"""
-#
-#     class Meta:
-#         model = Course
-#         fields = ('id', 'name')
-#
-#
-# class ChapterDetailSerializer(serializers.ModelSerializer):
-#     """章节详情"""
-#
-#     course = CourseDetailSerializers()
-#
-#     class Meta:
-#         model = Chapter
-#         fields = ('id', 'name', 'course')
-#
-#
-# class ProblemDetailSerializer(serializers.ModelSerializer):
-#     """题目详情页"""
-#
-#     class Meta:
-#         model = Problem
-#         fields = ('id', 'num', 'title', 'choices', 'answers', 'images', 'kind')
 
 
 class ProblemTempDetailListSerailizer(serializers.ModelSerializer):

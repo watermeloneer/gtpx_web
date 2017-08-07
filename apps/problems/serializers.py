@@ -33,7 +33,7 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
         return CourseTemp.objects.get(num=obj.course).name
 
     def get_chapter_doc(self, obj):
-        return ChapterTemp.objects.get(num=obj.chapter, course=obj.course).name
+        return ChapterTemp.objects.get(num=obj.chapter, course=obj.course, level=obj.level).name
 
     class Meta:
         model = ProbelmTemp

@@ -11,7 +11,7 @@ from apps.problems import api
 from apps.problems.views import problems_view
 
 urlpatterns = [
-    url(r'^/$', problems_view, name='problems_index'),
+    url(r'^$', problems_view, name='problems_index'),
     url(r'^list/$', api.ProblemTempListApi.as_view(), name='problems_list'),
     url(r'^chapters/list/$', api.ChapterTempListApi.as_view(), name='chapters_list')
 ]

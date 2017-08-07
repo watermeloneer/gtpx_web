@@ -7,7 +7,7 @@ from django.shortcuts import render
 @login_required
 def problems_view(request):
     """做题页面"""
-
-    return render(request, 'frontpage.html')
+    data = {'level': int(request.GET.get('level', 0))}
+    return render(request, 'welcome.html', context=data)
 
 

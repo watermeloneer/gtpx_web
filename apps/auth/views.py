@@ -17,7 +17,7 @@ def login(request):
             if request.user.is_superuser:
                 return HttpResponseRedirect(reverse('admin:index'))
             else:
-                return render(request, 'welcome.html')
+                return render(request, 'frontpage.html')
         else:
             return render(request, 'index.html')
     elif request.method=='POST':
@@ -36,7 +36,7 @@ def login(request):
                 return HttpResponseRedirect(reverse('admin:index'))
             else:
                 """普通账户"""
-                return render(request, 'welcome.html')
+                return render(request, 'frontpage.html')
         else:
             data = {"msg": '账户或密码错误'}
             return render(request, 'index.html', data)

@@ -46,7 +46,7 @@ def gen_problems_str(course, level):
 
     ids_list = ProbelmTemp.objects.filter(course=course, level=level).only('pk').values_list('pk', flat=True)
     ids_list = list(ids_list)
-    selected_ids = random.sample(ids_list, 100)
+    selected_ids = random.sample(ids_list, 10)
     string = ''
     for item in selected_ids:
         string = string + ' ' + str(item)

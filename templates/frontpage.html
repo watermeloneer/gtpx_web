@@ -15,25 +15,31 @@
         <div class="fp-rightheader">
             <div class="fp-leftheader"><span style="width: 15px;line-height: 20px;display: block">科目
         </span></div>
-            叉车司机</div>
+            {{ course }}</div>
     </div>
     <div class="fp-contain">
         <div class="fp-blcok">
-            <div class="ft-convince-btn">省内题库</div>
+            <a class="ft-convince-btn" href="/problem?level=1">省内题库</a>
         </div>
         <div class="fp-blcok">
-            <div class="ft-country-btn">国家题库</div>
+            <a class="ft-country-btn" href="/problem?level=0">国家题库</a>
         </div>
-        <div class="fp-blcok">
+        <div class="fp-blcok" onclick="error_remind()">
             <div class="ft-test-btn">模拟考试</div>
         </div>
-        <div class="fp-blcok">
-            <div class="error-btn">
-                <img src="./images/common/error-title.svg" class="error-img"/>
+        <div class="fp-blcok" onclick="error_remind()">
+            <div class="error-btn" >
+                <img src="{{STATIC_URL}}images/common/error-title.svg" class="error-img"/>
                 错题集
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    function error_remind() {
+        alert("开发中...敬请期待");
+    }
+</script>
 </body>
 </html>

@@ -2,9 +2,6 @@
  * Created by zdzmac on 2017/7/8.
  */
 $(function () {
-    /*
-     页面初始化执行函数
-     */
     dataList = '';
     chapter = "";
     chapterList();
@@ -209,6 +206,12 @@ function GetRequesttitle(url) {
 function controlBtn(index) {
     $("#welmainbtn button:eq(" + index + ")").addClass('topicTypebtn_active').removeClass("topicTypebtn");
     $("#welmainbtn button:eq(" + index + ")").siblings().addClass('topicTypebtn').removeClass("topicTypebtn_active");
+}
+
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
 }
 
 

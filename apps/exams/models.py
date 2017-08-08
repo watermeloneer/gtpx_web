@@ -44,5 +44,13 @@ class Exam(models.Model):
         from django.utils import timezone
         return timezone.now() > self.create_time + datetime.timedelta(minutes=60)
 
+    @property
+    def get_problems_list(self):
+        return self.problem_str.split()
+
+    @property
+    def get_error_list(self):
+        return self.error_str.split() if self.error_str else []
+
 
 

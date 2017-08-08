@@ -4,13 +4,11 @@
 # @Author  : 赵在化
 # @email  : zaihuazhao@163.com
 # @File    : api.py
-
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
-
-from apps.problems.admin import ProbelmTempAdmin
 from apps.problems.models import ProbelmTemp, ChapterTemp
-from apps.problems.serializers import ProblemTempDetailListSerailizer, ChapterTempListSerializer
+from apps.problems.serializers import ProblemTempDetailListSerailizer, ChapterTempListSerializer, \
+    ProblemExamListSerializer
 from extensions.pagination import StandardResultsSetPagination
 
 
@@ -42,3 +40,14 @@ class ChapterTempListApi(generics.ListAPIView):
         course = self.request.user.choices
         level = int(self.request.query_params.get('level', 0))
         return ChapterTemp.objects.filter(course=course, level=level).order_by('id')
+
+
+
+class ProblemDetailApi(generics.RetrieveAPIView):
+    """获取单个题目"""
+
+    permission_classes = (IsAuthenticated,)
+    serializer_class = ProblemExamListSerializer
+
+    def get_queryset(self):
+        return ProbelmTemp.objects.all()

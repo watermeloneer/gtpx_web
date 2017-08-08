@@ -90,6 +90,14 @@ class ProbelmTemp(models.Model):
     def __str__(self):
         return '项目:%s 知识模块:%s 记录:%s，级别:%s' % (self.course, self.chapter, self.title, self.get_level_display())
 
+    @property
+    def get_choices_list(self):
+        if self.choices:
+            return self.choices.replace('*', ' ').split()
+        else:
+            return []
+
+
 
 class ChapterTemp(models.Model):
     # {

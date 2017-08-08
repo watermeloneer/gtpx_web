@@ -24,7 +24,8 @@ urlpatterns = [
     url(r'^$', login, name='index'),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^problem/', include('apps.problems.urls')),
-    url(r'^logout/$', logout_site, name='logout')
+    url(r'^logout/$', logout_site, name='logout'),
+    url(r'^exams/', include('apps.exams.urls')),
 ]
 
 if settings.DEBUG:

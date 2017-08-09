@@ -62,4 +62,11 @@ class UploadResultsApi(APIView):
         #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
+class ProblemsListApi(APIView):
+    """考试题目"""
 
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        exam = Exam.objects.filter(user=request.user).last()
+        return Response(data=exam.get_problems_list, status=status.HTTP_200_OK)

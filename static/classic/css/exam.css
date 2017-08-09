@@ -224,6 +224,8 @@ body{
     background: #fff;
     height: 40px;
     line-height: 40px;
+    border-top: 2px solid #f0f0f0;
+    box-shadow: 0  0 5px #f0f0f0;
 }
 
 .em-footer span{
@@ -242,6 +244,7 @@ body{
     opacity: 0.4;
     height: 100vh;
     width: 100%;
+    display: none;
 }
 
 .em-modal{
@@ -250,7 +253,7 @@ body{
     left:0;
     z-index:1001;
     background: #fff;
-    height: 60vh;
+    height: 0;
     width: 100%;
     overflow: scroll;
 }
@@ -258,12 +261,13 @@ body{
 .em-modal-header{
     position: fixed;
     top:40vh;
+    display: none;
     left:0;
     width: 100%;
     background: #fff;
     height: 40px;
     line-height: 40px;
-    border-bottom: 2px solid #f0f0f0;
+    border-bottom: 2px solid #e7e7e7;
     box-shadow: 0  0 5px #f0f0f0;
 }
 
@@ -309,4 +313,23 @@ body{
     display: inline-block;
     color:#bebebe;
     border:1px solid #bebebe;
+}
+
+.em-right{
+    background: url("../images/common/right.svg") no-repeat 15px;
+    background-size: 20px;
+}
+
+.em-error{
+    background: url("../images/common/error.svg") no-repeat 15px;
+    background-size: 20px;
+}
+
+.em-submit{
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#FF752E,endcolorstr=#FD471E,gradientType=1);
+    background:-moz-linear-gradient(left, #FF752E, #FD471E);
+    background:-webkit-gradient(linear, 0 0, right bottom, from(#FF752E), to(#FD471E));
+    color:#fff;
+    margin-top: -4px;
+    height: 38px;
 }

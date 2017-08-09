@@ -12,6 +12,7 @@
     <script src="{{STATIC_URL}}js/exam.js"></script>
 </head>
 <body>
+<input id="titlePK" value="{{exam.get_problems_list}}" style="display: none"/>
 <div class="em-head">
     <div class="em-timefont">倒计时</div>
     <div class="timespan">
@@ -36,10 +37,10 @@
 </div>
 <div class="notitle">暂无本类题型</div>
 
-<div class="em-mask"></div>
+<div class="em-mask" onclick="maskClick()"></div>
 <div class="em-modal">
     <div class="em-modal-header">
-        <span class="em-submit">交卷</span>
+        <span>考题概览：</span>
         <span class="em-right">1</span>
         <span class="em-error">2</span>
         <span class="em-percent">5/100</span>

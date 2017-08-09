@@ -4,6 +4,29 @@
 
 $(document).ready(function () {
     examInit.titleInit();
+    pkList = $("#titlePK").val();
+    var str = pkList.split(',');
+    console.log(str[0]);
+    $(".em-percent").click(function () {
+        $(".em-modal").animate({height:"60vh"});
+        $(".em-modal-header").show("1000");
+        $(".em-mask").show();
+    })
+    $(".em-error").click(function () {
+        $(".em-modal").animate({height:"60vh"});
+        $(".em-modal-header").show("1000");
+        $(".em-mask").show();
+    })
+    $(".em-right").click(function () {
+        $(".em-modal").animate({height:"60vh"});
+        $(".em-modal-header").show("1000");
+        $(".em-mask").show();
+    })
+
+    $(".title-btn").click(function () {
+        var titleNum = $(this).text();
+        console.log(titleNum);
+    })
 })
 
 var titleList = new Array();
@@ -28,4 +51,10 @@ var examInit = {
         }
         $(".em-modal-contain").append(htmlStr);
     }
+}
+
+function maskClick() {
+    $(".em-modal").animate({height:"0"});
+    $(".em-modal-header").hide();
+    $(".em-mask").hide();
 }

@@ -100,11 +100,20 @@ body{
     float: left;
     width: 92%;
 }
-.wel-main-answer{
+.em-main-answer{
+    display: block;
     width: 100%;
-    text-align: center;
-    padding: 0.2rem 0 1.6rem;
+    text-align: left;
+    padding: 0 0 0 20%;
     color: #63b30d;
+}
+
+.em-main-useranswer{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 0 20%;
+    color: #FD471E;
 }
 
 .wel-main-nextparent{
@@ -113,17 +122,19 @@ body{
     display: block;
     width: 100%;
 }
-.wel-main-nextparent2{
+.em-main-nextparent2{
     position: fixed;
-    bottom: 0rem;
+    bottom: 40px;
     display: block;
     width: 100%;
-    background: #fff;
+    background: none;
+    text-align: right;
 }
 
-.wel-main-next{
+.em-main-next{
     display: inline-block;
-    float: left;
+    width: 49%;
+    text-align: center;
     width: 1.2rem;
     border-radius: 50%;
     font-size: 14px;
@@ -190,7 +201,7 @@ body{
     height: 100%;
     left: 0;
     top: 0;
-    z-index: 99;
+    z-index: 2000;
     opacity:0.8;
     overflow: hidden;
 }
@@ -294,7 +305,7 @@ body{
     margin-top: 10px;
 }
 
-.title-btn-green{
+.title-btn-right{
     line-height: 40px;
     width: 40px;
     height: 40px;
@@ -303,6 +314,17 @@ body{
     display: inline-block;
     color:#64b30d;
     border:1px solid #64b30d;
+}
+
+.title-btn-error{
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fbe1e4;
+    display: inline-block;
+    color:#fa150d;
+    border:1px solid #fa150d;
 }
 .title-btn{
     line-height: 40px;
@@ -322,7 +344,7 @@ body{
 
 .em-error{
     background: url("../images/common/error.svg") no-repeat 15px;
-    background-size: 20px;
+    background-size: 17px;
 }
 
 .em-submit{
@@ -332,4 +354,8 @@ body{
     color:#fff;
     margin-top: -4px;
     height: 38px;
+}
+
+.answer-active{
+    color:#FD471E;
 }

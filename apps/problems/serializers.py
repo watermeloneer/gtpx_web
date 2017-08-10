@@ -21,10 +21,7 @@ class ProblemTempDetailListSerailizer(serializers.ModelSerializer):
     chapter = serializers.SerializerMethodField('get_chapter_doc')
 
     def get_choices_list(self, obj):
-        if obj.choices:
-            return obj.choices.replace('*', ' ').split()
-        else:
-            return []
+        return obj.get_choices_list
 
     def get_category_doc(self, obj):
         return obj.get_category_display()
@@ -46,3 +43,20 @@ class ChapterTempListSerializer(serializers.ModelSerializer):
     class Meta:
         model = ChapterTemp
         fields = ('num', 'name')
+
+
+class ProblemExamListSerializer(serializers.ModelSerializer):
+    """考试题目列表"""
+
+    category = serializers.SerializerMethodField('get_category_doc')
+    choices = serializers.SerializerMethodField('get_choices_list')
+
+    def get_choices_list(self, obj):
+        return obj.get_choices_list
+
+    def get_category_doc(self, obj):
+        return obj.get_category_display()
+
+    class Meta:
+        model = ProbelmTemp
+        fields = ('title', 'choices', 'answers', 'images', 'category')

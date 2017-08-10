@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>模拟考试</title>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/common.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/exam.css" />
+    <script src="{{STATIC_URL}}js/jquery-1.9.1.min.js"></script>
+    <script src="{{STATIC_URL}}js/fontAuto.js"></script>
+</head>
+<body>
+<input id="titlePK" value="{{exam.get_problems_list}}" style="display: none"/>
+<div class="em-head">
+    <div class="em-timefont">倒计时</div>
+    <div class="timespan">
+    </div>
+</div>
+<div class="wel-main">
+    <h2 id="titleNum">第一题：</h2>
+    <div id="totalcount" class="totalcount"></div>
+    <div class="wel-main-contain">
+        <p id="title"></p>
+        <img src="" alt="没有图片" id="titleImage" style="color:#FD471E"/>
+        <ul class="wel-contain-option" id="titleOption">
+        </ul>
+    </div>
+    <div class="em-main-answer" id="answer"></div>
+    <div class="em-main-useranswer" id="useranswer"></div>
+
+    <div class="em-main-nextparent2">
+        <input type="button" class="em-main-next" value="下一题" onclick="switchNext()"/>
+    </div>
+</div>
+<div class="em-footer">
+    <span class="em-submit" onclick="emSubmit()">交卷</span>
+    <span class="em-right" id="em-right">0</span>
+    <span class="em-error" id="em-error">0</span>
+    <span class="em-percent" id="em-percent">0/100</span>
+</div>
+<div class="notitle">暂无本类题型</div>
+
+<div class="em-mask" onclick="examInit.maskClick()"></div>
+<div class="em-modal">
+    <div class="em-modal-header">
+        <span>考题概览：</span>
+        <span class="em-right" id="em-right1">0</span>
+        <span class="em-error" id="em-error1">0</span>
+        <span class="em-percent" id="em-percent1">0/100</span>
+    </div>
+    <div class="em-modal-contain">
+
+    </div>
+</div>
+<div class="modal1" id="modal1">
+    <div class="loading">
+        <img src="{{STATIC_URL}}images/common/loading.gif" alt=""/>
+    </div>
+</div>
+<script src="{{STATIC_URL}}js/exam.js"></script>
+</body>
+</html>
+
+
+

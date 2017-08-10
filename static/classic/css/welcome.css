@@ -183,7 +183,6 @@ body{
 .loading {
 	position: absolute;
 	top: 50%;
-	#solution>.border-radius(8px);
 	width: 160px;
 	height: 72px;
 	left: 50%;

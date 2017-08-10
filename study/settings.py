@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 CUSTOM_APPS = [
     'apps.users',
     'apps.problems',
+    'apps.exams'
 ]
 
 INSTALLED_APPS += CUSTOM_APPS

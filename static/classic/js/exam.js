@@ -205,6 +205,6 @@ function emSubmit() {
     var grade = $("#em-right").text();
     alert('测试分数：'+grade+"分    三秒后返回首页");
     setTimeout(function () {
-        window.location.href = '/logout'
+        window.location.href = '/'
     },3000)
 }

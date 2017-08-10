@@ -173,6 +173,7 @@ function takeTitle(response,num) {
     var Option = response.choices;
     var answer = response.answers;
     var titlestr = response.title;
+    var titleType = response.category;
     if(response.useranswers == undefined || response.useranswers == ""){
         $('#useranswer').text("");
         $('#answer').text("");
@@ -190,7 +191,7 @@ function takeTitle(response,num) {
     for(var i = 0; i<Option.length; i++){
         $("#titleOption").append('<li class="clearfix">'+ Option[i] +'</li>');
     }
-    $("#title").text(titlestr);
+    $("#title").text(titlestr + '--' + titleType);
     $('#titleNum').text('第 ' + (num+1) + ' 题：');
     $("#modal1").css("display","none");
     load = 0;

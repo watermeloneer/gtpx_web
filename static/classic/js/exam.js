@@ -99,7 +99,10 @@ var examInit = {
                 }
             })
         }else{
-            takeTitle(titleList[num],num);
+            if(num < 100){
+                takeTitle(titleList[num],num);
+            }
+
         }
     }
 }
@@ -110,7 +113,7 @@ function  switchNext() {
     var titlenum = title.replace(/[^0-9]/ig,"");
     var errorTitleNum = 0;
     var rightTitleNum = 0;
-    if(titlenum < 100){
+    if(titlenum <= 100){
         var answer = "";
         $(".clearfix").each(function(){
             if($(this).hasClass('answer-active')){
@@ -135,7 +138,7 @@ function  switchNext() {
         if(titleList[titlenum - 1].useranswers == undefined || titleList[titlenum - 1].useranswers == ""){
             titleList[titlenum - 1].useranswers = answer;
         }
-        for(var i = 0; i<99; i++){
+        for(var i = 0; i<=99; i++){
             if(titleList[i].useranswers == undefined || titleList[i].useranswers == ""){
 
             }else{
@@ -154,10 +157,10 @@ function  switchNext() {
         $("#em-right1").text(rightTitleNum);
         $("#em-error1").text(errorTitleNum);
         $("#em-percent1").text(total + '/100');
-        examInit.titleInit(titleList);
         var pk = scope_pklist[titlenum];
-        var nexttitle = titlenum-(-1);
-        examInit.titleBtn(pk,nexttitle);
+        var nexttitle = titlenum - (-1);
+        examInit.titleBtn(pk, nexttitle);
+        examInit.titleInit(titleList);
     }
 }
 
@@ -170,6 +173,7 @@ function takeTitle(response,num) {
     var Option = response.choices;
     var answer = response.answers;
     var titlestr = response.title;
+    var titleType = response.category;
     if(response.useranswers == undefined || response.useranswers == ""){
         $('#useranswer').text("");
         $('#answer').text("");
@@ -187,7 +191,7 @@ function takeTitle(response,num) {
     for(var i = 0; i<Option.length; i++){
         $("#titleOption").append('<li class="clearfix">'+ Option[i] +'</li>');
     }
-    $("#title").text(titlestr);
+    $("#title").text(titlestr + '--' + titleType);
     $('#titleNum').text('第 ' + (num+1) + ' 题：');
     $("#modal1").css("display","none");
     load = 0;

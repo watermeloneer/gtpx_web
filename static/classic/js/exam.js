@@ -208,26 +208,29 @@ function takeTitle(response,num) {
 function emSubmit() {
     var grade = $("#em-right").text();
     var subpklist = [];
-
+    var rightcount = 0;
     for(var i=0;i<100;i++){
         if(titleList[i] != "" && titleList[i].useranswers != undefined){
             if(titleList[i].answers != titleList[i].useranswers){
                 subpklist.push(scope_pklist[i]);
+            }else if(titleList[i].answers == titleList[i].useranswers){
+                rightcount = rightcount - (-1);
             }
         }
     }
     var cookielist = document.cookie;
     var cookie = getCookie(cookielist);
     var examid = $("#examid").val();
-    var url = '/exam/upload/'+examid + "/";
+    var url = '/exams/upload/';
     var obj = {
-        errot_list:subpklist
+        "error_list":subpklist,
+        "rightcount":rightcount
     }
     $.ajax({
         type:"POST",
         url:url,
-        headers:{"x-csrftoken":cookie,"Content-Type":"application/json;charset=UTF-8"},
-        data:obj,
+        headers:{"x-csrftoken":cookie,"Content-Type":"application/json"},
+        data:JSON.stringify(obj),
         success:function (response) {
             takeTitle(response,num);
         }

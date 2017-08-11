@@ -36,20 +36,35 @@ class UploadResultsApi(APIView):
 
     permission_classes = (IsAuthenticated,)
 
-    def patch(self, request, pk):
-        errot_list = self.request.data.get('errot_list', [])
-        score = 100 - len(errot_list)
+    def post(self, request):
+        error_list = self.request.data.get('error_list', [])
+        score = 100 - len(error_list)
         error_str = ''
-        for error in errot_list:
+        for error in error_list:
             error_str = error_str + ' ' + str(error)
+
         data = {'error_str': error_str, 'score': score}
-        queryset = Exam.objects.filter(pk=pk)
-        if not queryset:
-            exp = APIException('不存在的考试id：%s' % pk)
-            exp.status_code = status.HTTP_404_NOT_FOUND
-            raise exp
-        queryset.update(**data)
+        exam = Exam.objects.filter(user=request.user).last()
+        exam.error_str = error_str
+        exam.score = score
+        exam.save()
+
         return Response(data=data, status=status.HTTP_200_OK)
+
+    # def patch(self, request, pk):
+    #     errot_list = self.request.data.get('errot_list', [])
+    #     score = 100 - len(errot_list)
+    #     error_str = ''
+    #     for error in errot_list:
+    #         error_str = error_str + ' ' + str(error)
+    #     data = {'error_str': error_str, 'score': score}
+    #     queryset = Exam.objects.filter(pk=pk)
+    #     if not queryset:
+    #         exp = APIException('不存在的考试id：%s' % pk)
+    #         exp.status_code = status.HTTP_404_NOT_FOUND
+    #         raise exp
+    #     queryset.update(**data)
+    #     return Response(data=data, status=status.HTTP_200_OK)
 
         # 此处不适用serialize是因为下面会更新所有的字段值
         # # pk = request.kwargs['exam_id']

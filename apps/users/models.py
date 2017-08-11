@@ -36,12 +36,12 @@ class MyUserManager(BaseUserManager):
 class User(AbstractBaseUser, PermissionsMixin):
     """user model"""
     CHOICES_TYPE = (
-        (0, '叉车--叉车司机(N2)'),
-        (1, '叉车--场(厂)内专用机动车辆安全管理(A8)'),
-        (2, '容器--场固定式压力容器操作(R1)'),
-        (3, '容器--锅炉压力容器压力管道安全管理(全部)(A3)'),
-        (4, '电梯--安全管理(A4)'),
-        (5, '电梯--司机(T3)'),
+        (0, '叉车司机'),
+        (1, '叉车管理员'),
+        (2, '压力容器操作员'),
+        (3, '压力容器管理员'),
+        (4, '电梯管理员'),
+        (5, '电梯司机'),
     )
     account = models.CharField('账户', max_length=30, unique=True)
     name = models.CharField('姓名', max_length=12, blank=True)

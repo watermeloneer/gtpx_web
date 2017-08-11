@@ -32,7 +32,7 @@ def create_exam(request):
 
     user = request.user
     course = user.choices
-    level = int(request.GET.get('level', 0))
+    level = int(request.GET.get('level', 1))
     problem_str = gen_problems_str(course=course, level=level)
     exam = Exam(course=course, level=level, problem_str=problem_str, user=user)
     exam.save()

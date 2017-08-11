@@ -207,8 +207,25 @@ function takeTitle(response,num) {
 
 function emSubmit() {
     var grade = $("#em-right").text();
+    var subpklist = [];
+    for(var i=0;i<100;i++){
+        if(titleList[i].answers == titleList[i].useranswers){
+            subpklist.push(scope_pklist[i]);
+        }
+    }
+    var examid = $("#examid").val();
+
+    var url = '/exam/upload/'+examid;
+    $.ajax({
+        type:"PETCH",
+        url:url,
+        data:subpklist,
+        success:function (response) {
+            takeTitle(response,num);
+        }
+    })
     alert('测试分数：'+grade+"分    三秒后返回首页");
-    setTimeout(function () {
-        window.location.href = '/'
-    },3000)
+    // setTimeout(function () {
+    //     window.location.href = '/'
+    // },3000)
 }

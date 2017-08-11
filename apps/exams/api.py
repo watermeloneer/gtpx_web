@@ -38,7 +38,8 @@ class UploadResultsApi(APIView):
 
     def post(self, request):
         error_list = self.request.data.get('error_list', [])
-        score = 100 - len(error_list)
+        rightcount = int(self.request.data.get('rightcount', 0))
+        score = rightcount
         error_str = ''
         for error in error_list:
             error_str = error_str + ' ' + str(error)

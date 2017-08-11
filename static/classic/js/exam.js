@@ -232,13 +232,12 @@ function emSubmit() {
         headers:{"x-csrftoken":cookie,"Content-Type":"application/json"},
         data:JSON.stringify(obj),
         success:function (response) {
-            takeTitle(response,num);
+            alert('测试分数：'+grade+"分    三秒后返回首页");
+            setTimeout(function () {
+                window.location.href = '/'
+            },3000)
         }
     })
-    alert('测试分数：'+grade+"分    三秒后返回首页");
-    // setTimeout(function () {
-    //     window.location.href = '/'
-    // },3000)
 }
 
 function getCookie(data)

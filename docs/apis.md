@@ -182,16 +182,27 @@
 ## 6. 上传考试结果
 
 接口地址：
-**PATCH**
-`/exam/upload/:pk`
+**POST**
+`/exam/upload/`
 
 > 请求参数
 
 | 字段| 类型| 说明|
 | ---| ---| ---|
-|errot_list| list| 错误题号id列表|
+|error_list| 数组| 错误题号id列表|
 
-> 请求结果
+> 请求示例
+
+```shell
+POST /exam/upload/
+
+{
+    "error_list": [123, 324, 2110]
+}
+
+```
+
+> 返回结果实例
 
 ```shell
 

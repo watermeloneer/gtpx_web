@@ -234,5 +234,5 @@ ENV/
 
 *.idea/
 
-/config/dev.py
+
 

@@ -208,18 +208,26 @@ function takeTitle(response,num) {
 function emSubmit() {
     var grade = $("#em-right").text();
     var subpklist = [];
+
     for(var i=0;i<100;i++){
-        if(titleList[i].answers == titleList[i].useranswers){
-            subpklist.push(scope_pklist[i]);
+        if(titleList[i] != "" && titleList[i].useranswers != undefined){
+            if(titleList[i].answers != titleList[i].useranswers){
+                subpklist.push(scope_pklist[i]);
+            }
         }
     }
+    var cookielist = document.cookie;
+    var cookie = getCookie(cookielist);
     var examid = $("#examid").val();
-
-    var url = '/exam/upload/'+examid;
+    var url = '/exam/upload/'+examid + "/";
+    var obj = {
+        errot_list:subpklist
+    }
     $.ajax({
-        type:"PETCH",
+        type:"POST",
         url:url,
-        data:subpklist,
+        headers:{"x-csrftoken":cookie,"Content-Type":"application/json;charset=UTF-8"},
+        data:obj,
         success:function (response) {
             takeTitle(response,num);
         }
@@ -228,4 +236,13 @@ function emSubmit() {
     // setTimeout(function () {
     //     window.location.href = '/'
     // },3000)
+}
+
+function getCookie(data)
+{
+    var cookielist = data;
+    var cookiearr = cookielist.split(";");
+    var cookie = cookiearr[1].split("=");
+    return cookie[1];
+
 }

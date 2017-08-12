@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'^upload/$', api.UploadResultsApi.as_view(), name='exam_results_upload'),
     url(r'^problems/list/$', api.ProblemsListApi.as_view(), name='exam_problems_list'),
     url(r'^(?P<pk>\d+)/list/$', api.ExamProblemListApi.as_view(), name='exam_problem_list'),
+    url(r'^error/list/$', api.ExamErrorListApi.as_view(), name='exam_error_list'),
 ]

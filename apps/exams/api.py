@@ -86,3 +86,20 @@ class ProblemsListApi(APIView):
     def get(self, request):
         exam = Exam.objects.filter(user=request.user).last()
         return Response(data=exam.get_problems_list, status=status.HTTP_200_OK)
+
+
+
+class ExamErrorListApi(APIView):
+    """错误题号列表"""
+
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        query_set = Exam.objects.filter(user=request.user)
+        error_list = []
+        if query_set.exists():
+            for exam in query_set:
+                error_list += exam.get_error_list
+            error_list = list(set(error_list))
+
+        return Response(data=error_list, status=status.HTTP_200_OK)

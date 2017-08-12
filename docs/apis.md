@@ -183,7 +183,7 @@
 
 接口地址：
 **POST**
-`/exam/upload/`
+`/exams/upload/`
 
 > 请求参数
 
@@ -194,7 +194,7 @@
 > 请求示例
 
 ```shell
-POST /exam/upload/
+POST /exams/upload/
 
 {
     "error_list": [123, 324, 2110]
@@ -210,4 +210,29 @@ POST /exam/upload/
     "error_str": " 1 2 3 4 5 6",
     "score": 94
 }
+```
+
+
+## 6. 错题集
+
+接口地址：
+**GET**
+**需要登录**
+`/exams/error/list/`
+
+> 返回示例
+
+
+```shell
+[
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12
+]
+
+
 ```

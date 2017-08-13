@@ -243,8 +243,14 @@ function emSubmit() {
 function getCookie(data)
 {
     var cookielist = data;
+    var cookiecsrftoken = "";
     var cookiearr = cookielist.split(";");
-    var cookie = cookiearr[1].split("=");
-    return cookie[1];
+    for(var i=0;i<cookiearr.length;i++){
+        var obj = cookiearr[i].split("=");
+        if(obj[0] == 'csrftoken'){
+            cookiecsrftoken = obj[1];
+        }
+    }
+    return cookiecsrftoken;
 
 }

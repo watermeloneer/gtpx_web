@@ -21,8 +21,8 @@ var errorlist = {
        })
     },
     takeTitle:function (pk,num) {
-        $("#modal1").css("display","block");
         if(pk != undefined){
+            $("#modal1").css("display","block");
             $.ajax({
                 url:'/problem/'+pk,
                 type:'GET',
@@ -31,6 +31,8 @@ var errorlist = {
                     takeTitle(errortitle,num)
                 }
             })
+        }else{
+            $("#modal1").css("display","none");
         }
     }
 }

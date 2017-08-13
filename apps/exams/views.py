@@ -51,3 +51,9 @@ def gen_problems_str(course, level):
     for item in selected_ids:
         string = string + ' ' + str(item)
     return string
+
+
+@login_required()
+def error_view(request):
+    """错题集"""
+    return render(request, 'error_list.html')

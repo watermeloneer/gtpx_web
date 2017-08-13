@@ -21,6 +21,7 @@ var errorlist = {
        })
     },
     takeTitle:function (pk,num) {
+        $("#modal1").css("display","block");
         $.ajax({
             url:'/problem/'+pk,
             type:'GET',
@@ -34,7 +35,6 @@ var errorlist = {
 
 function takeTitle(response,num) {
     $("#titleOption").empty();
-    $("#modal1").css("display","none");
     var imgSrc = response.images;
     var Option = response.choices;
     var answer = response.answers;

@@ -22,14 +22,16 @@ var errorlist = {
     },
     takeTitle:function (pk,num) {
         $("#modal1").css("display","block");
-        $.ajax({
-            url:'/problem/'+pk,
-            type:'GET',
-            success:function (response) {
-                var errortitle = response;
-                takeTitle(errortitle,num)
-            }
-        })
+        if(pk != undefined){
+            $.ajax({
+                url:'/problem/'+pk,
+                type:'GET',
+                success:function (response) {
+                    var errortitle = response;
+                    takeTitle(errortitle,num)
+                }
+            })
+        }
     }
 }
 

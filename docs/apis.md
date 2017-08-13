@@ -182,16 +182,27 @@
 ## 6. 上传考试结果
 
 接口地址：
-**PATCH**
-`/exam/upload/:pk`
+**POST**
+`/exams/upload/`
 
 > 请求参数
 
 | 字段| 类型| 说明|
 | ---| ---| ---|
-|errot_list| list| 错误题号id列表|
+|error_list| 数组| 错误题号id列表|
 
-> 请求结果
+> 请求示例
+
+```shell
+POST /exams/upload/
+
+{
+    "error_list": [123, 324, 2110]
+}
+
+```
+
+> 返回结果实例
 
 ```shell
 
@@ -199,4 +210,29 @@
     "error_str": " 1 2 3 4 5 6",
     "score": 94
 }
+```
+
+
+## 6. 错题集
+
+接口地址：
+**GET**
+**需要登录**
+`/exams/error/list/`
+
+> 返回示例
+
+
+```shell
+[
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12
+]
+
+
 ```

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>习题</title>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/common.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/welcome.css" />
+    <script src="{{STATIC_URL}}js/jquery-1.9.1.min.js"></script>
+    <script src="{{STATIC_URL}}js/fontAuto.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .el_error-title{
+        font-size: 18px;
+        width: 80%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        letter-spacing:10px;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+</style>
+<div class="wel-head">
+    <div class="el_error-title">
+        错题集
+    </div>
+    <a style="float: right;margin-right: 10px;color:#fff;background:#FD471E;line-height:
+                30px;padding:0px 3px;border-radius: 3px" href="/">返回首页</a>
+</div>
+<div class="wel-main">
+    <h2 id="titleNum">第一题：</h2>
+    <div id="totalcount" class="totalcount"></div>
+    <div class="wel-main-contain">
+        <p id="title"></p>
+        <img src="" alt="没有图片" id="titleImage" style="color:#FD471E"/>
+        <ul class="wel-contain-option" id="titleOption">
+        </ul>
+    </div>
+    <div class="wel-main-answer" id="answer"></div>
+    <!--<div class="wel-main-nextparent">-->
+    <!---->
+    <!--</div>-->
+    <div class="wel-main-nextparent2">
+        <input type="button" class="wel-main-next" value="第一题" onclick="switchFirst()"/>
+        <input type="button" class="wel-main-next" value="上一题" onclick="switchPre()"/>
+        <input type="button" class="wel-main-next" value="下一题" onclick="switchNext()"/>
+        <input type="button" class="wel-main-next" value="最后一题" onclick="switchLast()"/>
+    </div>
+</div>
+<div class="notitle">暂无本类题型</div>
+
+<div class="modal1" id="modal1">
+    <div class="loading">
+        <img src="{{STATIC_URL}}images/common/loading.gif" alt=""/>
+    </div>
+</div>
+</body>
+<script src="{{STATIC_URL}}js/errorlist.js?v=1.0"></script>
+</html>
+
+
+

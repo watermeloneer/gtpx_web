@@ -36,20 +36,36 @@ class UploadResultsApi(APIView):
 
     permission_classes = (IsAuthenticated,)
 
-    def patch(self, request, pk):
-        errot_list = self.request.data.get('errot_list', [])
-        score = 100 - len(errot_list)
+    def post(self, request):
+        error_list = self.request.data.get('error_list', [])
+        rightcount = int(self.request.data.get('rightcount', 0))
+        score = rightcount
         error_str = ''
-        for error in errot_list:
+        for error in error_list:
             error_str = error_str + ' ' + str(error)
+
         data = {'error_str': error_str, 'score': score}
-        queryset = Exam.objects.filter(pk=pk)
-        if not queryset:
-            exp = APIException('不存在的考试id：%s' % pk)
-            exp.status_code = status.HTTP_404_NOT_FOUND
-            raise exp
-        queryset.update(**data)
+        exam = Exam.objects.filter(user=request.user).last()
+        exam.error_str = error_str
+        exam.score = score
+        exam.save()
+
         return Response(data=data, status=status.HTTP_200_OK)
+
+    # def patch(self, request, pk):
+    #     errot_list = self.request.data.get('errot_list', [])
+    #     score = 100 - len(errot_list)
+    #     error_str = ''
+    #     for error in errot_list:
+    #         error_str = error_str + ' ' + str(error)
+    #     data = {'error_str': error_str, 'score': score}
+    #     queryset = Exam.objects.filter(pk=pk)
+    #     if not queryset:
+    #         exp = APIException('不存在的考试id：%s' % pk)
+    #         exp.status_code = status.HTTP_404_NOT_FOUND
+    #         raise exp
+    #     queryset.update(**data)
+    #     return Response(data=data, status=status.HTTP_200_OK)
 
         # 此处不适用serialize是因为下面会更新所有的字段值
         # # pk = request.kwargs['exam_id']
@@ -70,3 +86,20 @@ class ProblemsListApi(APIView):
     def get(self, request):
         exam = Exam.objects.filter(user=request.user).last()
         return Response(data=exam.get_problems_list, status=status.HTTP_200_OK)
+
+
+
+class ExamErrorListApi(APIView):
+    """错误题号列表"""
+
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        query_set = Exam.objects.filter(user=request.user)
+        error_list = []
+        if query_set.exists():
+            for exam in query_set:
+                error_list += exam.get_error_list
+            error_list = list(set(error_list))
+
+        return Response(data=error_list, status=status.HTTP_200_OK)

@@ -207,8 +207,44 @@ function takeTitle(response,num) {
 
 function emSubmit() {
     var grade = $("#em-right").text();
-    alert('测试分数：'+grade+"分    三秒后返回首页");
-    setTimeout(function () {
-        window.location.href = '/'
-    },3000)
+    var subpklist = [];
+    var rightcount = 0;
+    for(var i=0;i<100;i++){
+        if(titleList[i] != "" && titleList[i].useranswers != undefined){
+            if(titleList[i].answers != titleList[i].useranswers){
+                subpklist.push(scope_pklist[i]);
+            }else if(titleList[i].answers == titleList[i].useranswers){
+                rightcount = rightcount - (-1);
+            }
+        }
+    }
+    var cookielist = document.cookie;
+    var cookie = getCookie(cookielist);
+    var examid = $("#examid").val();
+    var url = '/exams/upload/';
+    var obj = {
+        "error_list":subpklist,
+        "rightcount":rightcount
+    }
+    $.ajax({
+        type:"POST",
+        url:url,
+        headers:{"x-csrftoken":cookie,"Content-Type":"application/json"},
+        data:JSON.stringify(obj),
+        success:function (response) {
+            alert('测试分数：'+grade+"分    三秒后返回首页");
+            setTimeout(function () {
+                window.location.href = '/'
+            },3000)
+        }
+    })
+}
+
+function getCookie(data)
+{
+    var cookielist = data;
+    var cookiearr = cookielist.split(";");
+    var cookie = cookiearr[1].split("=");
+    return cookie[1];
+
 }

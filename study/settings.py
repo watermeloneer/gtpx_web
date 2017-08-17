@@ -32,7 +32,7 @@ SECRET_KEY = 'z615vhhjd$#d2%55y6@y$@!a_)j-%&)xbl(v)5gf+8#q_d7%d1'
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', '192.168.0.103',
                  '172.16.28.137', '121.43.187.16', '192.168.1.108',
-                 '118.89.105.127', '192.168.1.103']
+                 '118.89.105.127', '192.168.1.103', 'www.gtservice-training.cn']
 
 
 # Application definition

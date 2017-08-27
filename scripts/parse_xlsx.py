@@ -22,12 +22,12 @@ def run():
     # print('===========省级叉车管理员==========')
     # parse_left_operater('省级叉车管理员.xlsx', course_id=1)
     # print('============ok===========')
-    print('======熔炉省级=====')
-    parse_left_operater('锅炉.xlsx', course_id=6)
-    print('=======起重机司机===========')
-    parse_left_operater('起重机司机.xlsx', course_id=7)
-    # print('=======起重机管理员===========')
-    # parse_left_operater('起重机管理员.xlsx', course_id=8)
+    # print('======熔炉省级=====')
+    # parse_left_operater('锅炉.xlsx', course_id=6)
+    # print('=======起重机司机===========')
+    # parse_left_operater('起重机司机.xlsx', course_id=7)
+    print('=======起重机管理员===========')
+    parse_left_operater('起重机械管理员.xlsx', course_id=8)
 
 def parse_left_operater(suffix, course_id):
     path = os.path.join(DATA_DIR, suffix)
@@ -59,9 +59,9 @@ def parse_left_operater(suffix, course_id):
     for index, row in enumerate(sheet.rows):
         if index == 0:
             continue
-        image = row[6].value
-        has_image = row[7].value
-        print(has_image)
+        # image = row[6].value
+        # has_image = row[7].value
+        # print(has_image)
         print(index)
         # if has_image:
         #     print('====================')

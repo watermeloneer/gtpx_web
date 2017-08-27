@@ -18,7 +18,7 @@ DATABASES = {
         'NAME': 'gtpx_db',
         # 'NAME': 'gtpx',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'Password123/',
         'HOST': 'localhost',
         'PORT': '3306',
     }

@@ -26,7 +26,7 @@ def create_chapters():
         for line in data:
             chapter = ChapterTemp(num=line['num'], course=line['group'], name=line['name'] )
             print(chapter)
-            chapter.save()
+            # chapter.save()
 
 
 def create_problems():
@@ -41,4 +41,4 @@ def create_problems():
             problem = ProbelmTemp(course=line['group'], chapter=line['categoty'], num=line['num'], title=line['title'],
                                   choices=line['choices'], answers=line['answers'], images=line['images'], category=line['radio'])
             print(problem)
-            problem.save()
+            # problem.save()

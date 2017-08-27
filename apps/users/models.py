@@ -44,6 +44,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         (5, '电梯司机'),
         (6, '熔炉'),
         (7, '起重机司机'),
+        (8, '起重机管理员'),
     )
     account = models.CharField('账户', max_length=30, unique=True)
     name = models.CharField('姓名', max_length=12, blank=True)

@@ -74,7 +74,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         return
 
     def __str__(self):
-        return self.account
+        return self.name if self.name else '未设置姓名'
 
     def save(self, *args, **kwargs):
         if not len(self.password) == 32:# 设置密码

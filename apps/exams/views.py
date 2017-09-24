@@ -43,10 +43,11 @@ def create_exam(request):
 
 def gen_problems_str(course, level):
     """产生题目列表"""
-
+    if course in [2, 3]:
+        course = 6
     ids_list = ProbelmTemp.objects.filter(course=course, level=level).only('pk').values_list('pk', flat=True)
     ids_list = list(ids_list)
-    selected_ids = random.sample(ids_list, 100)
+    selected_ids = random.sample(ids_list, 100 if len(ids_list) > 100 else len(ids_list) - 5)
     string = ''
     for item in selected_ids:
         string = string + ' ' + str(item)

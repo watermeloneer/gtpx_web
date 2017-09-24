@@ -6,6 +6,7 @@ from apps.users.models import User
 
 
 class UserAdmin(admin.ModelAdmin):
+    search_fields = ('name', 'account')
     list_display = ('id', 'account', 'name', 'choices', 'password', 'create_time', )
     date_hierarchy = 'create_time'
     exclude = ('create_time',)

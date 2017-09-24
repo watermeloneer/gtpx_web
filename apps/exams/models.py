@@ -27,8 +27,8 @@ class Exam(models.Model):
 
     course = models.IntegerField('项目', choices=COURSES_CHOICES, default=0)
     level = models.IntegerField('等级', choices=LEVEL_CHOICES, default=0)
-    problem_str = models.CharField('题目列表', max_length=500, blank=True)# 以 " " 连接
-    error_str = models.CharField('错题列表', max_length=500, blank=True, null=True)# 以 " " 连接
+    problem_str = models.CharField('题目列表', max_length=2000, blank=True)# 以 " " 连接
+    error_str = models.CharField('错题列表', max_length=2000, blank=True, null=True)# 以 " " 连接
     score = models.IntegerField('得分', default=0)
     user = models.ForeignKey(User, verbose_name='相关用户')
     create_time = models.DateTimeField(auto_now_add=True)

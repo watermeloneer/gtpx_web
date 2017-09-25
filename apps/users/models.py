@@ -54,11 +54,14 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField('是否活跃', default=True)
     is_staff = models.BooleanField('内部人员', default=False)
     choices = models.IntegerField('培训项目', default=0, choices=CHOICES_TYPE, blank=True)  # 0表示叉车 1表示其他
+    left_exam_count = models.PositiveIntegerField('剩余考试次数', default=5)
 
     # 代表用户名字段
     USERNAME_FIELD = 'account'
 
     objects = MyUserManager()
+
+    GROUPS_IDS = None
 
     class Meta:
         db_table = 'users'
@@ -81,3 +84,21 @@ class User(AbstractBaseUser, PermissionsMixin):
             self.password = make_password(self.password)
         super(User, self).save(*args, **kwargs)
 
+    def my_groups(self):
+        if self.GROUPS_IDS is None:
+            self.GROUPS_IDS=[]
+            if self.is_authenticated():
+                glist=self.groups.all()
+                for g in glist:
+                    self.GROUPS_IDS.append(g.id)
+        return self.GROUPS_IDS
+
+    @property
+    def is_operator(self):
+        """副管理员"""
+        return (1 in self.my_groups())
+
+    @property
+    def has_takein_exam_permission(self):
+        """是否有考试权限"""
+        return self.left_exam_count > 0

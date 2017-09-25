@@ -42,7 +42,7 @@ class Exam(models.Model):
     def is_expired(self):
         # 是否过期
         from django.utils import timezone
-        return timezone.now() > self.create_time + datetime.timedelta(minutes=60)
+        return True if self.error_str else timezone.now() > self.create_time + datetime.timedelta(minutes=60)
 
     @property
     def get_problems_list(self):

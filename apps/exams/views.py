@@ -13,6 +13,9 @@ def exam_view(request):
     #                        -> 返回考试题目接口
     #
     user = request.user
+    if not user.has_takein_exam_permission:
+        return render(request, 'exam.html', {'msg': u'考试次数已用完，请联系管理员'})
+
     try:
         exam = Exam.objects.filter(user=user).last()
     except:
@@ -36,6 +39,8 @@ def create_exam(request):
     problem_str = gen_problems_str(course=course, level=level)
     exam = Exam(course=course, level=level, problem_str=problem_str, user=user)
     exam.save()
+    user.left_exam_count -= 1
+    user.save()
 
     return exam
 

@@ -32,7 +32,7 @@ def login(request):
         if user:
             auth.login(request=request, user=user)
             cache_session_key_for_request(request) # 同时只能登录一个用户
-            if user.is_superuser:
+            if any([user.is_superuser, user.is_operator]):
                 """管理员账户"""
                 return HttpResponseRedirect(reverse('admin:index'))
             else:

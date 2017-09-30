@@ -14,7 +14,7 @@ def exam_view(request):
     #
     user = request.user
     if not user.has_takein_exam_permission:
-        return render(request, 'exam.html', {'msg': u'考试次数已用完，请联系管理员'})
+        return render(request, 'frontpage.html', {'msg': u'考试次数已用完，请联系管理员'})
 
     try:
         exam = Exam.objects.filter(user=user).last()

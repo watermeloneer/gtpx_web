@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css" />
     <script src="{{STATIC_URL}}js/jquery-1.9.1.min.js"></script>
     <script src="{{STATIC_URL}}js/fontAuto.js"></script>
+    <script>
+        var msg = "{{ msg }}";
+        if (msg.length > 0) {
+            alert(msg);
+        }
+    </script>
 </head>
 <body>
 <div class="frontpage-warp">
@@ -31,7 +37,7 @@
             <a class="ft-country-btn" href="/problem?level=0">顺章练习</a>
         </div>
         <div class="fp-blcok">
-            <a class="ft-test-btn" href="exams">模拟考试</a>
+            <a class="ft-test-btn" href="/exams">模拟考试</a>
         </div>
         <div class="fp-blcok">
             <a class="error-btn" href="/exams/error/">

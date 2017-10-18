@@ -20,9 +20,12 @@ class ProblemTempListApi(generics.ListAPIView):
 
     def get_queryset(self):
         course = self.request.user.choices
+        if course in [2, 3]:
+            level = 0;
+        else:
+            level = int(self.request.query_params.get('level', 0))
         chapter = int(self.request.query_params.get('chapter', 0))
         category = self.request.query_params.get('category')
-        level = int(self.request.query_params.get('level', 0))
         filer_params = {'course': course, 'chapter': chapter, 'level': level}
         if category:
             filer_params['category'] = int(category)
@@ -38,7 +41,11 @@ class ChapterTempListApi(generics.ListAPIView):
 
     def get_queryset(self):
         course = self.request.user.choices
-        level = int(self.request.query_params.get('level', 0))
+        if course in [2, 3]:
+            level = 0
+        else:
+            level = int(self.request.query_params.get('level', 0))
+
         return ChapterTemp.objects.filter(course=course, level=level).order_by('id')
 
 

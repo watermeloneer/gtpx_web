@@ -26,8 +26,20 @@ def run():
     # parse_left_operater('锅炉.xlsx', course_id=6)
     # print('=======起重机司机===========')
     # parse_left_operater('起重机司机.xlsx', course_id=7)
-    print('=======起重机管理员===========')
-    parse_left_operater('起重机械管理员.xlsx', course_id=8)
+    # print('=======起重机管理员===========')
+    """
+    |  1 |   0 | 叉车--叉车司机(N2)                                               |
+    |  2 |   1 | 叉车--场(厂)内专用机动车辆安全管理(A8)                           |
+    |  3 |   2 | 容器--场固定式压力容器操作(R1)                                   |
+    |  4 |   3 | '容器--锅炉压力容器压力管道安全管理(全部)(A3)'                   |
+    |  5 |   4 | 电梯--安全管理(A4)                                               |
+    |  6 |   5 | 电梯--司机(T3)                                                   |
+    |  7 |   6 | 熔炉                                                             |
+    |  8 |   7 | 起重机司机                                                       |
+    |  9 |   8 | 起重机管理员
+    """
+
+    parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
 
 def parse_left_operater(suffix, course_id):
     path = os.path.join(DATA_DIR, suffix)
@@ -39,7 +51,7 @@ def parse_left_operater(suffix, course_id):
     for index, row in enumerate(sheet.rows):
         if index == 0:
             continue
-        chapter_name = row[1].value
+        chapter_name = row[0].value # 保持和 L71 一致
         if chapter_name:
             if chapter_name not in chapters:
                 chapters.append(chapter_name)
@@ -52,7 +64,8 @@ def parse_left_operater(suffix, course_id):
         c = ChapterTemp(num=index, course=course_id, name=name, level=1)
         print(c.__dict__)
         # print(c.num, c.course, c.name, c.level)
-        c.save()
+        # FIXME 保存
+        # c.save()
 
 
     # 创建题目
@@ -68,14 +81,21 @@ def parse_left_operater(suffix, course_id):
         #     print(type(image))
         #     print(image)
         #     continue
-        chapter_name = row[1].value
+        # FIXME 章节名
+        chapter_name = row[0].value
         chapter = chapters.index(chapter_name)
         course = 4
         num = 0
+        # FIXME 题目
         title = row[3].value
+        # FIXME 选项
         choices = row[4].value
+        # FIXME 答案
         answers = row[5].value
+        if not all([title, choices, answers]):
+            continue
         image = None
+        # FIXME 题目类别
         category_name = row[2].value
         if category_name == '单选题':
             category = 0
@@ -93,5 +113,6 @@ def parse_left_operater(suffix, course_id):
         print(p.__dict__)
         # print(p.course, p.chapter, p.num, p.title, p.choices, p.answers, p.images, p.category, p.level)
         # print(index)
+        # FIXME 保存
         p.save()
     print('====ok====')

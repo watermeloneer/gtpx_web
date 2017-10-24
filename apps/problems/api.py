@@ -20,8 +20,8 @@ class ProblemTempListApi(generics.ListAPIView):
 
     def get_queryset(self):
         course = self.request.user.choices
-        if course in [2, 3]:
-            level = 0;
+        if course in [3]:
+            level = 0
         else:
             level = int(self.request.query_params.get('level', 0))
         chapter = int(self.request.query_params.get('chapter', 0))
@@ -41,7 +41,7 @@ class ChapterTempListApi(generics.ListAPIView):
 
     def get_queryset(self):
         course = self.request.user.choices
-        if course in [2, 3]:
+        if course in [3]:
             level = 0
         else:
             level = int(self.request.query_params.get('level', 0))

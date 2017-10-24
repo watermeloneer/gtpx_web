@@ -42,8 +42,8 @@ class ProbelmTempAdmin(admin.ModelAdmin):
     def get_list_display(self, request):
         return [f.name for f in self.model._meta.fields]
 
-    def get_readonly_fields(self, request, obj=None):
-        return [f.name for f in self.model._meta.fields]
+    # def get_readonly_fields(self, request, obj=None):
+    #     return [f.name for f in self.model._meta.fields]
 
 
 # admin.site.register(Course, CourseAdmin)

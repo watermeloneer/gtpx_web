@@ -21,7 +21,7 @@ def exam_view(request):
     except:
         # 没有则创建
         exam = create_exam(request=request)
-    if not exam or exam.is_expired:
+    if not exam or exam.is_expired or exam.error_str:
         # 过期重新创建
         exam = create_exam(request=request)
 
@@ -48,7 +48,7 @@ def create_exam(request):
 
 def gen_problems_str(course, level):
     """产生题目列表"""
-    if course in [2, 3]:
+    if course in [3]:
         course = 6
     ids_list = ProbelmTemp.objects.filter(course=course, level=level).only('pk').values_list('pk', flat=True)
     ids_list = list(ids_list)

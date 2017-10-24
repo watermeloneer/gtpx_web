@@ -6,6 +6,7 @@
 # @File    : parse_xlsx.py
 import json
 import os
+import traceback
 
 from openpyxl import load_workbook
 
@@ -39,7 +40,11 @@ def run():
     |  9 |   8 | 起重机管理员
     """
 
-    parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
+    # parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
+    try:
+        parse_left_operater('省级压力容器管理员.xlsx', course_id=3)
+    except :
+        traceback.print_exc()
 
 def parse_left_operater(suffix, course_id):
     path = os.path.join(DATA_DIR, suffix)
@@ -65,7 +70,7 @@ def parse_left_operater(suffix, course_id):
         print(c.__dict__)
         # print(c.num, c.course, c.name, c.level)
         # FIXME 保存
-        # c.save()
+        c.save()
 
 
     # 创建题目
@@ -87,16 +92,16 @@ def parse_left_operater(suffix, course_id):
         course = 4
         num = 0
         # FIXME 题目
-        title = row[3].value
+        title = row[2].value
         # FIXME 选项
-        choices = row[4].value
+        choices = row[3].value
         # FIXME 答案
-        answers = row[5].value
+        answers = row[4].value
         if not all([title, choices, answers]):
             continue
         image = None
         # FIXME 题目类别
-        category_name = row[2].value
+        category_name = row[1].value
         if category_name == '单选题':
             category = 0
         elif category_name == '判断题':

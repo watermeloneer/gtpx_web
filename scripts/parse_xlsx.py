@@ -42,7 +42,9 @@ def run():
 
     # parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
     try:
-        parse_left_operater('省级压力容器管理员.xlsx', course_id=3)
+        parse_left_operater('省级低压电工作业.xlsx', course_id=9)
+        parse_left_operater('省级高处作业.xlsx', course_id=10)
+        parse_left_operater('省级电焊.xlsx', course_id=11)
     except :
         traceback.print_exc()
 
@@ -62,7 +64,7 @@ def parse_left_operater(suffix, course_id):
                 chapters.append(chapter_name)
                 # print(chapters)
 
-    print(chapters)
+    # print(chapters)
 
     # 创建章节
     for index, name in enumerate(chapters):
@@ -77,20 +79,11 @@ def parse_left_operater(suffix, course_id):
     for index, row in enumerate(sheet.rows):
         if index == 0:
             continue
-        # image = row[6].value
-        # has_image = row[7].value
-        # print(has_image)
-        print(index)
-        # if has_image:
-        #     print('====================')
-        #     print(type(image))
-        #     print(image)
-        #     continue
         # FIXME 章节名
         chapter_name = row[0].value
+        if not chapter_name:
+            break
         chapter = chapters.index(chapter_name)
-        course = 4
-        num = 0
         # FIXME 题目
         title = row[2].value
         # FIXME 选项
@@ -112,7 +105,7 @@ def parse_left_operater(suffix, course_id):
             category = 3
         else:
             continue
-
+        #FIXME 省级level默认为1
         p = ProbelmTemp(course=course_id, chapter=chapter, num=0, title=title, choices=choices, answers=answers,
                         images=image, category=category, level=1)
         print(p.__dict__)

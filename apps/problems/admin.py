@@ -37,7 +37,7 @@ class CategoryTempAdmin(admin.ModelAdmin):
 class ProbelmTempAdmin(admin.ModelAdmin):
     model = ProbelmTemp
 
-    search_fields = ('course', )
+    search_fields = ('title',)
 
     def get_list_display(self, request):
         return [f.name for f in self.model._meta.fields]

@@ -15,6 +15,9 @@ from study.settings import BASE_DIR
 
 
 DATA_DIR = os.path.join(BASE_DIR, 'source_data/xlsx')
+
+LEVEL = 0  #全国
+# LEVEL = 1 # 省级
 def run():
     # print('===========省级电梯管理员==========')
     # parse_left_operater('省级电梯管理员.xlsx', 4)
@@ -42,9 +45,10 @@ def run():
 
     # parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
     try:
-        parse_left_operater('省级低压电工作业.xlsx', course_id=9)
-        parse_left_operater('省级高处作业.xlsx', course_id=10)
-        parse_left_operater('省级电焊.xlsx', course_id=11)
+        # parse_left_operater('省级低压电工作业.xlsx', course_id=9)
+        # parse_left_operater('省级高处作业.xlsx', course_id=10)
+        # parse_left_operater('新电焊国家题库2018.xlsx', course_id=11)
+        parse_left_operater('电焊新题库（数字类选择题）2018.10.xlsx', course_id=11)
     except :
         traceback.print_exc()
 
@@ -68,11 +72,11 @@ def parse_left_operater(suffix, course_id):
 
     # 创建章节
     for index, name in enumerate(chapters):
-        c = ChapterTemp(num=index, course=course_id, name=name, level=1)
+        c = ChapterTemp(num=index, course=course_id, name=name, level=LEVEL)
         print(c.__dict__)
         # print(c.num, c.course, c.name, c.level)
         # FIXME 保存
-        c.save()
+        # c.save()
 
 
     # 创建题目
@@ -103,11 +107,13 @@ def parse_left_operater(suffix, course_id):
             category = 2
         elif category_name == '图片题':
             category = 3
+        elif category_name == '数字类选择题':
+            category = 4
         else:
             continue
         #FIXME 省级level默认为1
-        p = ProbelmTemp(course=course_id, chapter=chapter, num=0, title=title, choices=choices, answers=answers,
-                        images=image, category=category, level=1)
+        p = ProbelmTemp(course=course_id, chapter=chapter, num=0, title=title, choices='', answers=answers,
+                        images=image, category=category, level=LEVEL)
         print(p.__dict__)
         # print(p.course, p.chapter, p.num, p.title, p.choices, p.answers, p.images, p.category, p.level)
         # print(index)

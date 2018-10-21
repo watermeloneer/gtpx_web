@@ -18,7 +18,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gtpx_db',
         'USER': 'root',
-        'PASSWORD': 'password123/',
+        'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '3306',
     }

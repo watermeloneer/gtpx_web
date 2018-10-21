@@ -16,6 +16,7 @@ class ProbelmTemp(models.Model):
         (1, '判断题'),
         (2, '多选题'),
         (3, '图片题'),
+        (4, '数字类选择题'),
     )
     LEVEL_CHOICES = (
         (0, '全国'),

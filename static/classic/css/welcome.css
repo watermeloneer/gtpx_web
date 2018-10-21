@@ -201,3 +201,30 @@ body{
 .loading span{
 	display: block;
 }
+
+.gopage{
+	position: fixed;
+	bottom: 2rem;
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding:5px 20px;
+}
+
+.gopage input{
+	width: 30%;
+	border:1px solid #dfdfdf;
+	font-size: 14px;
+	color:#666666;
+	font-family: PingFangSC-Regular;
+	padding:5px;
+}
+
+.gopage button{
+	background: #FD471E;
+	color:#fff;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	padding:8px 15px;
+	border:0;
+}

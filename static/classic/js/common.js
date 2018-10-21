@@ -84,6 +84,7 @@ function getChapterNumber() {
     return chapter;
 }
 
+
 /*
  切换题目
  */
@@ -187,6 +188,31 @@ function controlBtn(index) {
     $("#welmainbtn button:eq(" + index + ")").addClass('topicTypebtn_active').removeClass("topicTypebtn");
     $("#welmainbtn button:eq(" + index + ")").siblings().addClass('topicTypebtn').removeClass("topicTypebtn_active");
 }
+
+
+function goPage() {
+    var page=document.getElementById("weliuput").value;
+    if(categoryNum == -1){
+        var url = '/problem/list/?page=' + page + '&chapter=' + chapter + '&level=' + level;
+    }else{
+        var url = '/problem/list/?page=' + page+ '&category=' + categoryNum + '&chapter=' + chapter + '&level=' + level;
+    }
+    submitInfo(url);
+}
+
+
+function checkNumber() {
+    var page=document.getElementById("weliuput").value;
+    console.log(page + count);
+    if(page > count){
+        document.getElementById("weliuput").value = count;
+    }else if(page < 1){
+        document.getElementById("weliuput").value = 1
+    }
+}
+
+
+
 
 
 

@@ -48,7 +48,7 @@ def run():
         # parse_left_operater('省级低压电工作业.xlsx', course_id=9)
         # parse_left_operater('省级高处作业.xlsx', course_id=10)
         # parse_left_operater('新电焊国家题库2018.xlsx', course_id=11)
-        parse_left_operater('电焊新题库（数字类选择题）2018.10.xlsx', course_id=11)
+        parse_left_operater('省级低压电工题库.xlsx', course_id=9)
     except :
         traceback.print_exc()
 
@@ -68,7 +68,7 @@ def parse_left_operater(suffix, course_id):
                 chapters.append(chapter_name)
                 # print(chapters)
 
-    # print(chapters)
+    print(chapters)
 
     # 创建章节
     for index, name in enumerate(chapters):
@@ -80,6 +80,7 @@ def parse_left_operater(suffix, course_id):
 
 
     # 创建题目
+    problem_list = []
     for index, row in enumerate(sheet.rows):
         if index == 0:
             continue
@@ -112,11 +113,15 @@ def parse_left_operater(suffix, course_id):
         else:
             continue
         #FIXME 省级level默认为1
-        p = ProbelmTemp(course=course_id, chapter=chapter, num=0, title=title, choices='', answers=answers,
+        p = ProbelmTemp(course=course_id, chapter=chapter, num=0, title=title, choices=choices, answers=answers,
                         images=image, category=category, level=LEVEL)
+        problem_list.append(p)
         print(p.__dict__)
         # print(p.course, p.chapter, p.num, p.title, p.choices, p.answers, p.images, p.category, p.level)
         # print(index)
         # FIXME 保存
-        p.save()
+        # p.save()
+    print(len(problem_list))
+    ProbelmTemp.objects.bulk_create(problem_list, 50)
+
     print('====ok====')

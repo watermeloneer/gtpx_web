@@ -30,10 +30,7 @@ SECRET_KEY = 'z615vhhjd$#d2%55y6@y$@!a_)j-%&)xbl(v)5gf+8#q_d7%d1'
 
 
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', '192.168.0.103',
-                 '172.16.28.137', '121.43.187.16', '192.168.1.108',
-                 '118.89.105.127', '192.168.1.103', 'www.gtservice-training.cn',
-                 '106.14.200.142', 'h5.zhanggoodzhi.top']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -95,21 +92,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'study.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
-
-
-# Password validation
-# https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {

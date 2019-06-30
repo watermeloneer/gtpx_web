@@ -24,20 +24,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'gtpx_db',
-#         'USER': 'root',
-#         'PASSWORD': 'rootAdmin@123',
-#         'HOST': '597378224c91b.gz.cdb.myqcloud.com',
-#         'PORT': '5124',
-#     }
-# }
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, 'static/classic/')

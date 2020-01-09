@@ -41,6 +41,7 @@ def run():
     |  7 |   6 | 熔炉                                                             |
     |  8 |   7 | 起重机司机                                                       |
     |  9 |   8 | 起重机管理员
+    |  9 |   12 | 叉车--叉车司机(2020) 
     """
 
     # parse_left_operater('省级压力容器操作员.xlsx', course_id=2)
@@ -48,7 +49,8 @@ def run():
         # parse_left_operater('省级低压电工作业.xlsx', course_id=9)
         # parse_left_operater('省级高处作业.xlsx', course_id=10)
         # parse_left_operater('新电焊国家题库2018.xlsx', course_id=11)
-        parse_left_operater('省级低压电工题库.xlsx', course_id=9)
+        # parse_left_operater('省级低压电工题库.xlsx', course_id=9)
+        parse_left_operater('叉车司机总题库_2020_01_09.xlsx', course_id=12)
     except :
         traceback.print_exc()
 
@@ -73,10 +75,9 @@ def parse_left_operater(suffix, course_id):
     # 创建章节
     for index, name in enumerate(chapters):
         c = ChapterTemp(num=index, course=course_id, name=name, level=LEVEL)
-        print(c.__dict__)
         # print(c.num, c.course, c.name, c.level)
         # FIXME 保存
-        # c.save()
+        c.save()
 
 
     # 创建题目
@@ -121,7 +122,7 @@ def parse_left_operater(suffix, course_id):
         # print(index)
         # FIXME 保存
         # p.save()
-    print(len(problem_list))
+    # print(len(problem_list))
     ProbelmTemp.objects.bulk_create(problem_list, 50)
 
     print('====ok====')

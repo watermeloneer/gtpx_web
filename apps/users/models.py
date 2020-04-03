@@ -58,6 +58,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField('是否活跃', default=True)
     is_staff = models.BooleanField('内部人员', default=False)
     choices = models.IntegerField('培训项目', default=0, choices=CHOICES_TYPE, blank=True)  # 0表示叉车 1表示其他
+    course = models.ForeignKey('problems.CourseTemp', null=True, blank=True, on_delete=models.SET_NULL,verbose_name='培训项目')  #培训项目
     left_exam_count = models.PositiveIntegerField('剩余考试次数', default=5)
 
     # 代表用户名字段

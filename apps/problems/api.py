@@ -19,7 +19,9 @@ class ProblemTempListApi(generics.ListAPIView):
     pagination_class = StandardResultsSetPagination
 
     def get_queryset(self):
-        course = self.request.user.choices
+        # course = self.request.user.choices
+        course = self.request.user.course.num
+        
         level = int(self.request.query_params.get('level', 0))
         chapter = int(self.request.query_params.get('chapter', 0))
         category = self.request.query_params.get('category')
@@ -41,7 +43,8 @@ class ChapterTempListApi(generics.ListAPIView):
     serializer_class = ChapterTempListSerializer
 
     def get_queryset(self):
-        course = self.request.user.choices
+        # course = self.request.user.choices
+        course = self.request.user.course.num
         level = int(self.request.query_params.get('level', 0))
 
         return ChapterTemp.objects.filter(course=course, level=level).order_by('id')

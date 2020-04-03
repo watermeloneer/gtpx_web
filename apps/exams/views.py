@@ -34,7 +34,8 @@ def create_exam(request):
     """创建考试"""
 
     user = request.user
-    course = user.choices
+    # course = user.choices
+    course = user.course.num
     level = int(request.GET.get('level', 1))
     if course == 11:
         level = 0

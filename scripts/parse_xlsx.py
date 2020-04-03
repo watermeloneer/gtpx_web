@@ -50,7 +50,7 @@ def run():
         # parse_left_operater('省级高处作业.xlsx', course_id=10)
         # parse_left_operater('新电焊国家题库2018.xlsx', course_id=11)
         # parse_left_operater('省级低压电工题库.xlsx', course_id=9)
-        parse_left_operater('叉车司机总题库_2020_01_09.xlsx', course_id=12)
+        parse_left_operater('2020_01_21特种设备安全管理.xlsx', course_id=12)
     except :
         traceback.print_exc()
 

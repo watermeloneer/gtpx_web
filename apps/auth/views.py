@@ -17,7 +17,7 @@ def login(request):
             if request.user.is_superuser:
                 return HttpResponseRedirect(reverse('admin:index'))
             else:
-                data = {'course': request.user.get_choices_display()}
+                data = {'course': request.user.course.name if request.user.course else ''}
                 return render(request, 'frontpage.html', data)
         else:
             return render(request, 'index.html')
@@ -37,7 +37,7 @@ def login(request):
                 return HttpResponseRedirect(reverse('admin:index'))
             else:
                 """普通账户"""
-                data = {'course': request.user.get_choices_display()}
+                data = {'course': request.user.course.name if request.user.course else ''}
                 return render(request, 'frontpage.html', data)
         else:
             data = {"msg": '账户或密码错误'}

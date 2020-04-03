@@ -129,9 +129,9 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False if RUN_ENV == 'deploy' else True
+# USE_TZ = False if RUN_ENV == 'deploy' else False
 
-
+USE_TZ = False
 
 
 STATICFILES_FINDERS = (

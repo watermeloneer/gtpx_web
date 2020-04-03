@@ -9,5 +9,6 @@ def run():
     for user in User.objects.all():
         print('process...', user.account)
         user.course = course_num_map.get(user.choices)
+        user.save()
         print('done')
 

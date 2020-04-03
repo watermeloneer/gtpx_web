@@ -26,9 +26,9 @@ class QuestionsPaser:
             answers = self._get_answers(question_div)
             answer = self._get_correct_answer(question_div)
             question = {
-                'qtype': qtype,
-                'content': content,
-                'answers': answers,
+                'category': qtype,
+                'title': content,
+                'choices': answers,
                 'answer': answer
             }
             print(question)

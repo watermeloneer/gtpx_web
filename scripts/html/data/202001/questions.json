@@ -3,3768 +3,3768 @@
         "category": "判断题",
         "title": "黄绿双色的导线只能用于保护线。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "隔离开关是指承担接通和断开电流任务，将电路与电源隔开。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "装设过负荷保护的配电线路，其绝缘导线的允许载流量应不小于熔断器额定电流的1.25倍。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "TN-C-S系统是干线部分保护零线与工作零线完全共用的系统。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在采用多级熔断器保护中，是通过熔体的电压值越高，熔断时间越短。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电流和磁场密不可分，磁场总是伴随着电流而存在，而电流永远被磁场所包围。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电动机按铭牌数值工作时，短时运行的定额工作制用S2表示。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "热继电器是利用双金属片受热弯曲而推动触点动作的一种保护电器，它主要用于线路的速断保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "中间继电器实际上是一种动作与释放值可调节的电压继电器。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "交流接触器的通断能力，与接触器的结构及灭弧方式有关。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "触电分为电击和电伤。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电容器放电的方法就是将其两端用导线连接。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "导电性能介于导体和绝缘体之间的物体称为半导体。。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "频率的自动调节补偿是热继电器的一个功能。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在安全色标中用红色表示禁止、停止或消防。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "导线连接后接头与绝缘层的距离越小越好。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电力线路敷设时严禁采用突然剪断导线的办法松线。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在安全色标中用绿色表示安全、通过、允许、工作。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "发现有人触电后，应立即通知医院派救护车来抢救，在医生来到前，现场人员不能对触电者进行抢救，以免造成二次伤害。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为保证零线安全，三相四线的零线必须加装熔断器。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "对于异步电动机，国家标准规定3kW以下的电动机均采用三角形联结。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "能耗制动这种方法是将转子的动能转化为电能，并消耗在转子回路的电阻上。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "断路器在选用时，要求断路器的额定通断能力要大于或等于被保护线路中可能出现的最大负载电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "交流电动机铭牌上的频率是此电机使用的交流电源的频率。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "使用竹梯作业时，梯子放置与地面以50°左右为宜。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电动式时间继电器的延时时间不受电源电压波动及环境温度变化的影响。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "铁壳开关可用于不频繁启动28kW以下的三相异步电动机。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "接地线是为了在已停电的设备和线路上意外地出现电压时保证工作人员的重要工具。按规定，接地线必须是截面积25m㎡以上裸铜软线制成。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "磁力线是一种闭合曲线。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "绝缘材料就是指绝对不导电的材料。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "熔断器在所有电路中，都能起到过载保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "行程开关的作用是将机械行走的长度用电信号传出。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "目前我国生产的接触器额定电流一般大于或等于630A。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "分断电流能力是各类刀开关的主要技术参数之一。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "三相电动机的转子和定子要同时通电才能工作。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "热继电器的双金属片弯曲的速度与电流大小有关，电流越大，速度越快，这种特性称正比时限特性。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "过载是指线路中的电流大于线路的计算电流或允许载流量。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "保护接零适用于中性点直接接地的配电系统中。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "导线的工作电压应大于其额定电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "常用绝缘安全防护用具有绝缘手套、绝缘靴、绝缘隔板、绝缘垫、绝缘站台等。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "通用继电器是可以更换不同性质的线圈，从而将其制成各种继电器。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "额定电压为380V的熔断器可用在220V的线路中。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对绕线型异步电机应经常检查电刷与集电环的接触及电刷的磨损，压力，火花等情况。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "绝缘老化只是一种化学变化。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "低压配电屏是按一定的接线方案将有关低压一、二次设备组装起来，每一个主电路方案对应一个或多个辅助方案，从而简化了工程设计。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "并联电容器有减少电压损失的作用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "并联电路中各支路上的电流不一定相等。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "概率为50%时，成年男性的平均感知电流值约为1.1mA，最小为0.5mA，成年女性约为0.6mA。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "按规范要求，穿管绝缘导线用铜芯线时，截面积不得小于1m㎡。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "并联补偿电容器主要用在直流电路中。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电机在检修后，经各项检查合格后，就可对电机进行空载试验和短路试验。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "若磁场中各点的磁感应强度大小相同，则该磁场为均匀磁场。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "热继电器的双金属片是由一种热膨胀系数不同的金属材料辗压而成。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "同一电器元件的各部件分散地画在原理图中，必须按顺序标注文字符号。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "自动开关属于手动电器。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "挂登高板时，应钩口向外并且向上。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "绝缘体被击穿时的电压称为击穿电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "止步，高压危险的标志牌的式样是白底、红边，有红色箭头。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "两相触电危险性比单相触电小。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "根据《电能质量供电电压允许偏差》规定，10kV及以下三相供电电压允许偏差为额定电压的()。",
         "choices": "**A、±7% **B、±5% **C、±10% ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "热继电器的保护特性与电动机过载特性贴近，是为了充分发挥电机的()能力。",
         "choices": "**A、控制 **B、过载 **C、节流 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "三相四线制的零线的截面积一般()相线截面积。",
         "choices": "**A、小于 **B、大于 **C、等于 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "笼形异步电动机常用的降压启动有()启动、自耦变压器降压启动、星-三角降压启动。",
         "choices": "**A、转子串电阻 **B、串电阻降压 **C、转子串频敏 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电动机定子三相绕组与交流电源的连接叫接法，其中Y为()。",
         "choices": "**A、星形接法 **B、三角形接法 **C、延边三角形接法 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "熔断器的额定电流()电动机的起动电流。",
         "choices": "**A、小于 **B、等于 **C、大于 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "保护线(接地或接零线)的颜色按标准应采用()。",
         "choices": "**A、蓝色 **B、红色 **C、黄绿双色 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "下列材料不能作为导线使用的是()。",
         "choices": "**A、钢绞线 **B、铜绞线 **C、铝绞线 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "导线接头的机械强度不小于原导线机械强度的()%。",
         "choices": "**A、80 **B、90 **C、95 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "碳在自然界中有金刚石和石墨两种存在形式，其中石墨是()。",
         "choices": "**A、绝缘体 **B、半导体 **C、导体 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电压继电器使用时其吸引线圈直接或通过电压互感器()在被控电路中。",
         "choices": "**A、串联或并联 **B、串联 **C、并联 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "属于控制电器的是()。",
         "choices": "**A、接触器 **B、熔断器 **C、刀开关 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "绝缘安全用具分为()安全用具和辅助安全用具。",
         "choices": "**A、直接 **B、基本 **C、间接 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "频敏变阻器其构造与三相电抗相拟，即由三个铁芯柱和()绕组组成。",
         "choices": "**A、一个 **B、三个 **C、二个 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "用于电气作业书面依据的工作票应一式()份。",
         "choices": "**A、2 **B、3 **C、4 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "熔断器的额定电压，是从()角度出发，规定的电路最高工作电压。",
         "choices": "**A、灭弧 **B、过载 **C、温度 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "继电器是一种根据()来控制电路“接通”或“断开”的一种自动电器。",
         "choices": "**A、非电信号 **B、电信号 **C、外界输入信号(电信号或非电信号) ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "“禁止攀登，高压危险!”的标志牌应制作为()。",
         "choices": "**A、白底红字 **B、白底红边黑字 **C、红底白字 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电能表是测量()用的仪器。",
         "choices": "**A、电流 **B、电能 **C、电压 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "三相异步电动机虽然种类繁多，但基本结构均由()和转子两大部分组成。",
         "choices": "**A、定子 **B、外壳 **C、罩壳及机座 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "某四极电动机的转速为1440r/min，则这台电动机的转差率为()%。",
         "choices": "**A、4 **B、2 **C、6 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "变配电设备应有完善的屏护装置。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对于转子有绕组的电动机，将外电阻串入转子电路中启动，并随电机转速升高而逐渐地将电阻值减小并最终切除，叫转子串电阻启动。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "熔体的额定电流不可大于熔断器的额定电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "规定小磁针的北极所指的方向是磁力线的方向。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "自动空气开关具有过载、短路和欠电压保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "热继电器的保护特性在保护电机时，应尽可能与电动机过载特性贴近。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "如果电容器运行时，检查发现温度过高，应加强通风。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "断路器可分为框架式和塑料外壳式。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电机异常发响发热的同时，转速急速下降，应立即切断电源，停机检查。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "铁壳开关安装时外壳必须可靠接地。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "速度继电器主要用于电动机的反接制动，所以也称为反接制动继电器。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "水和金属比较，水的导电性能更好。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在磁路中，当磁阻大小不变时，磁通与磁动势成反比。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "并联电路的总电压等于各支路电压之和。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "SELV只作为接地系统的电击保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电气原理图中的所有元件均按未通电状态或无外力作用时的状态画出。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "根据用电性质，电力线路可分为动力线路和配电线路。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "导线连接时必须注意做好防腐措施。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "试验对地电压为50V以上的带电设备时，氖泡式低压验电器就应显示有电。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电缆保护层的作用是保护电缆。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "安全可靠是对任何开关电器的基本要求。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对电机轴承润滑的检查，可通电转动电动机转轴，看是否转动灵活，听有无异声。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "对电机各绕组的绝缘检查，如测出绝缘电阻不合格，不允许通电运行。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "低压绝缘材料的耐压等级一般为500V。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电动机的短路试验是给电机施加35V左右的电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "再生发电制动只用于电动机转速高于同步转速的场合。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "正弦交流电的周期与角频率的关系互为倒数的。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电业安全工作规程中，安全组织措施包括停电、验电、装设接地线、悬挂标示牌和装设遮栏等。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电容器室内要有良好的天然采光。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "交流电每交变一周所需的时间叫做周期T。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "交流发电机是应用电磁感应的原理发电的。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "直流电弧的烧伤较交流电弧烧伤严重。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "据部分省市统计，农村触电事故要少于城市的触电事故。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "二极管只要工作在反向击穿区，一定会被击穿。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "胶壳开关不适合用于直接控制5.5kW以上的交流电动机。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "异步电动机的转差率是旋转磁场的转速与电动机转速之差与旋转磁场的转速之比。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "自动切换电器是依靠本身参数的变化或外来讯号而自动进行工作的。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "导线接头的抗拉强度必须与原导线的抗拉强度相同。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电压的方向是由高电位指向低电位，是电位升高的方向。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "机关、学校、企业、住宅等建筑物内的插座回路不需要安装漏电保护装置。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "30Hz~40Hz的电流危险性最大。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "导线接头的绝缘强度应()原导线的绝缘强度。",
         "choices": "**A、等于 **B、大于 **C、小于 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "万用表电压量程2.5V是当指针指在()位置时电压值为2.5V。",
         "choices": "**A、满量程 **B、1/2量程 **C、2/3量程 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "钳形电流表是利用()的原理制造的。",
         "choices": "**A、变压器 **B、电压互感器 **C、电流互感器 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "铁壳开关在作控制电机启动和停止时，要求额定电流要大于或等于()倍电动机额定电流。",
         "choices": "**A、两 **B、一 **C、三 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电流从左手到双脚引起心室颤动效应，一般认为通电时间与电流的乘积大于()mA·S时就有生命危险。",
         "choices": "**A、16 **B、30 **C、50 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "如果触电者心跳停止，有呼吸，应立即对触电者施行()急救。",
         "choices": "**A、胸外心脏按压法 **B、仰卧压胸法 **C、俯卧压背法 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "三相异步电动机按其()的不同可分为开启式、防护式、封闭式三大类。",
         "choices": "**A、外壳防护方式 **B、供电电源的方式 **C、结构型式 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "拉开闸刀时，如果出现电弧，应()。",
         "choices": "**A、缓慢拉开 **B、立即合闸 **C、迅速拉开 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "()可用于操作高压跌落式熔断器、单极隔离开关及装设临时接地线等。",
         "choices": "**A、绝缘手套 **B、绝缘棒 **C、绝缘鞋 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "非自动切换电器是依靠()直接操作来进行工作的。",
         "choices": "**A、感应 **B、电动 **C、外力(如手控) ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电容器在用万用表检查时指针摆动后应该()。",
         "choices": "**A、保持不动 **B、逐渐回摆 **C、来回摆动 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "导线接头缠绝缘胶布时，后一圈压在前一圈胶布宽度的()。",
         "choices": "**A、1/3 **B、1/2 **C、1 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "PE线或PEN线上除工作接地外其他接地点的再次接地称为()接地。",
         "choices": "**A、间接 **B、重复 **C、直接 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "对触电成年伤员进行人工呼吸，每次吹入伤员的气量要达到()mL才能保证足够的氧气。",
         "choices": "**A、500至700 **B、1200至1400 **C、800至1200 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电机在运行时，要通过()、看、闻等方法及时监视电动机。",
         "choices": "**A、记录 **B、吹风 **C、听 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "导线接头电阻要足够小，与同长度同截面导线的电阻比不大于()。",
         "choices": "**A、2 **B、1.5 **C、1 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "三极管超过()时，必定会损坏。",
         "choices": "**A、集电极最大允许耗散功率Pcm **B、管子的电流放大倍数β **C、集电极最大允许电流Icm ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "更换熔体或熔管，必须在()的情况下进行。",
         "choices": "**A、不带电 **B、带电 **C、带负载 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "降压启动是指启动时降低加在电动机()绕组上的电压，启动运转后，再使其电压恢复到额定电压正常运行。",
         "choices": "**A、转子 **B、定子 **C、定子及转子 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "三相笼形异步电动机的启动方式有两类，既在额定电压下的直接启动和()启动。",
         "choices": "**A、转子串电阻 **B、降低启动电压 **C、转子串频敏 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "熔断器的文字符号为FU。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "右手定则是判定直导体做切割磁力线运动时所产生的感生电流方向。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对称的三相电源是由振幅相同、初相依次相差120°的正弦电源，连接组成的供电系统。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电机运行时发出沉闷声是电机在正常运行的声音。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "跨越铁路，公路等的架空绝缘铜导线截面不小于16m㎡。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电业安全工作规程中，安全技术措施包括工作票制度、工作许可制度、工作监护制度、工作间断转移和终结制度。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在电压低于额定值的一定比例后能自动断电的称为欠压保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "组合开关可直接起动5kW以下的电动机。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "基尔霍夫第一定律是节点电流定律，是用来证明电路上各电流之间关系的定律。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "载流导体在磁场中一定受到磁场力的作用。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "遮栏是为防止工作人员无意碰到带电设备部分而装设备的屏护，分临时遮栏和常设遮栏两种。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "使用脚扣进行登杆作业时，上、下杆的每一步必须使脚扣环完全套入并可靠地扣住电杆，才能移动身体，否则会造成事故。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "检查电容器时，只要检查电压是否符合要求即可。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "改革开放前我国强调以铝代铜作导线，以减轻导线的重量。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电机在短时定额运行时，我国规定的短时运行时间有6种。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "停电作业安全措施按保安作用依据安全措施分为预见性措施和防护措施。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "验电是保证电气作业安全的技术措施之一。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "脱离电源后，触电者神志清醒，应让触电者来回走动，加强血液循环。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "220V的交流电压的最大值为380V。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电容器的容量就是电容量。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "中间继电器的动作值与释放值可调节。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "屋外电容器一般采用台架安装。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "漏电断路器在被保护电路中有漏电或有人触电时，零序电流互感器就产生感应电流，经放大使脱扣器动作，从而切断电路。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "按钮的文字符号为SB。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电动势的方向是()。",
         "choices": "**A、从负极指向正极 **B、从正极指向负极 **C、与电压方向相同 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "三个阻值相等的电阻串联时的总电阻是并联时总电阻的()倍。",
         "choices": "**A、9 **B、6 **C、3 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "交流接触器的额定工作电压，是指在规定条件下，能保证电器正常工作的()电压。",
         "choices": "**A、最高 **B、最低 **C、平均 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电业安全工作规程上规定，对地电压为()V及以下的设备为低压设备。",
         "choices": "**A、400 **B、380 **C、250 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "低压熔断器，广泛应用于低压供配电系统和控制系统中，主要用于()保护，有时也可用于过载保护。",
         "choices": "**A、短路 **B、速断 **C、过流 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电动机()作为电动机磁通的通路，要求材料有良好的导磁性能。",
         "choices": "**A、定子铁芯 **B、端盖 **C、机座 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "利用()来降低加在定子三相绕组上的电压的启动叫自耦降压启动。",
         "choices": "**A、频敏变压器 **B、自耦变压器 **C、电阻器 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "利用交流接触器作欠压保护的原理是当电压不足时，线圈产生的()不足，触头分断。",
         "choices": "**A、涡流 **B、磁力 **C、热量 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "具有反时限安秒特性的元件就具备短路保护和()保护能力。",
         "choices": "**A、温度 **B、过载 **C、机械 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "感应电流的方向总是使感应电流的磁场阻碍引起感应电流的磁通的变化，这一定律称为()。",
         "choices": "**A、法拉第定律 **B、楞次定律 **C、特斯拉定律 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "微动式行程开关的优点是有()动作机构。",
         "choices": "**A、控制 **B、转轴 **C、储能 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "接地电阻测量仪主要由手摇发电机、()、电位器，以及检流计组成。",
         "choices": "**A、变压器 **B、电压互感器 **C、电流互感器 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "笼形异步电动机采用电阻降压启动时，启动次数()。",
         "choices": "**A、不宜太少 **B、不宜过于频繁 **C、不允许超过3次/小时 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "低压线路中的零线采用的颜色是()。",
         "choices": "**A、深蓝色 **B、淡蓝色 **C、黄绿双色 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "三相交流电路中，A相用()颜色标记。",
         "choices": "**A、黄色 **B、红色 **C、绿色 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "特别潮湿的场所应采用()V的安全特低电压。",
         "choices": "**A、42 **B、12 **C、24 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "手持电动工具有两种分类方式，即按工作电压分类和按防潮程度分类。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "登高板和绳应能承受（）N的拉力试验。",
         "choices": "**A、1000 **B、2206 **C、1500 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "尖嘴钳150mm是指（）。",
         "choices": "**A、其总长度150mm **B、其绝缘手柄为150mm **C、其开口150mm ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "有时候用钳表测量电流前，要把钳口开合几次，目的是（）。",
         "choices": "**A、消除剩余电流 **B、消除残余应力 **C、消除剩磁 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "一台380伏7.5千瓦的电动机，装设过载和断相保护，应选（）。",
         "choices": "**A、JR16-20/3 **B、JR16-60/3D **C、JR16-20/3D ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "标有“100欧4瓦”和“100欧36瓦”的两个电阻串联，允许加的最高电压是（）V。",
         "choices": "**A、20 **B、60 **C、40 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "在日常生活中，在和易燃、易爆物接触时要引起注意：有些介质是比较容易产生静电乃至引发火灾爆炸的。如在加油站不可用金属桶等盛油。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "从实际发生的事故中可以看到，70%以上的事故都与（）有关。",
         "choices": "**A、人为过失 **B、人的情绪 **C、技术水平 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "测量电压时，电压表应与被测电路并联，电压表的内阻远大于被测负载的电阻。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "刀开关在选用时，要求刀开关的额定电压要大于或等于线路实际的（）电压。",
         "choices": "**A、最高 **B、额定 **C、故障 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在配电线路中，熔断器作过载保护时，熔体的额定电流为不大于导线允许载流量（）倍。",
         "choices": "**A、1.25 **B、1.1 **C、0.8 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "高压的方向是由高电位指向低电位，是电位升高的方向。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "当架空线路与爆炸性气体环境邻近时，其间距离不得小于杆塔高度的（）倍。",
         "choices": "**A、3 **B、1.5 **C、2.5 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "凡受电容量在160KVA以上的高压供电用户，月平均功率因数标准为（）。",
         "choices": "**A、0.8 **B、0.85 **C、0.9 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "防雷装置的引下线应满足足够的机械强度、耐腐蚀和热稳定的要求，如用钢绞线，其截面不得小于35m㎡",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "企业、事业单位使用未取得相应资格的人员从事特种作业的，发生重大伤亡事故，处以三年以下有期徒刑或者拘役。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "交流接触器的断开能力，是指开关断开电流时能可靠地（）的能力。",
         "choices": "**A、熄灭电弧 **B、分开触点 **C、切断运行 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "接闪杆可以用镀锌钢管焊成，其长度应在1m以上，钢管直径不得小于20mm，管壁厚度不得小于2.75mm。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "自耦变压器二次有2~3组抽头，其电压可以分别为一次电压U1的80%、40%、（）%。",
         "choices": "**A、10 **B、60 **C、20 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "低压运行维修作业是指在对地电压220V及以下的电气设备上进行安装、运行、检修、试验等电工作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "当接通灯泡后，零线上就有电流，人体就不能再触摸零线了。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "由专用变压器供电时，电动机容量小于变压器容量的（），允许直接启动。",
         "choices": "**A、60% **B、40% **C、20% ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "Ⅱ类工具的绝缘电阻要求最小为（）MΩ。",
         "choices": "**A、7 **B、5 **C、9 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "（）仪表的灵敏度和精确度较高，多用来制作携带式电压表和电流表。",
         "choices": "**A、电磁式 **B、磁电式 **C、电动式 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "二极管的导电特性是（）导电。",
         "choices": "**A、三向 **B、双向 **C、单向 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "电感性负载并联电容器后，电压和电流之间的电角度会减小。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "移动电气设备的电源一般采用架设或穿钢管保护的方式。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "不可用万用表欧姆档直接测量微安表、检流计或电池的内阻。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "用星-三角降压启动时,启动转矩为直接采用三角形联结时启动转矩的1/2。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在低压供电线路保护接地和建筑物防雷接地网，需要共用时，其接地网电阻要求（）。",
         "choices": "**A、≤1Ω **B、≤2.5Ω **C、≤10Ω ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "对于夜间影响飞机或车辆通行的，在建机械设备上安装的红色信号灯，其电源设在总开关（）。",
         "choices": "**A、左侧 **B、后侧 **C、前侧 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "日光灯的电子镇流器可使日光灯获得高频交流电。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "当10KV高压控制系统发生电器火灾时，如果电源无法切断，必须带电灭火则可选用的灭火器是（）。",
         "choices": "**A、二氧化碳灭火器，喷嘴距带电体不小于0.6m **B、雾化水枪，戴绝缘手套，穿绝缘靴，水枪头接地。水枪头距带电体4.5m以上 **C、干粉灭火器，喷嘴和机体距带电体应不小于0.4m ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "判断题",
         "title": "所有的电桥均是测量直流电阻的。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在高压线路发生火灾时，应迅速撤离现场，并拨打火警电话119报警。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "特殊场所暗装的插座安装高度不小于1.5m。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "断路器在选用时，要求线路末端单相对地短路电流要大于或等于1.25倍断路器的瞬时脱口器整定电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "IT系统就是保护接零系统。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "单极型半导体器件是（）。",
         "choices": "**A、二极管 **B、双极性二极管 **C、场效应管 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "用喷雾水枪可带电灭火,但为安全起见,灭火人员要戴绝缘手套,穿绝缘靴还要求水枪头()。",
         "choices": "**A、不能是金属制成的 **B、必须是塑料制成的 **C、接地 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "特低电压限值是指在任何条件下,任意两导体之间出现的()电压值。",
         "choices": "**A、中间 **B、最大 **C、最小 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "旋转磁场的旋转方向决定于通入定子绕组中的三相交流电源的相序,只要任意调换电动机()所接交流电源的相序,旋转磁场既反转。",
         "choices": "**A、一相绕组 **B、三相绕组 **C、两相绕组 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电气火灾的引发是由于危险温度的存在,危险温度的引发主要是由于()。",
         "choices": "**A、电压波动 **B、电流过大 **C、设备负载轻 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "几种线路同杆架设时,必须保证高压线路在低压线路()。",
         "choices": "**A、上方 **B、右方 **C、左方 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "特种作业人员必须年满()周岁。",
         "choices": "**A、18 **B、19 **C、20 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "当低压电气火灾发生时,首先应做的是()。",
         "choices": "**A、迅速用干粉或者二氧化碳灭火器灭火 **B、迅速离开现场去报告领导 **C、迅速设法切断电源 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "星-三角降压启动,是起动时把定子三相绕组作()联结。",
         "choices": "**A、三角形 **B、延边三角形 **C、星形 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在易燃易爆场所使用的照明灯具应采用()灯具。",
         "choices": "**A、普通型 **B、防潮型 **C、防爆型 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "更换和检修用电设备时,最好的安全措施是()。",
         "choices": "**A、切断电源 **B、戴橡皮手套操作 **C、站在凳子上操作 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "胶壳刀开关在接线时,电源线接在()。",
         "choices": "**A、上端(静触点) **B、下端(动触点) **C、两端都可 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在雷暴雨天气,应将门和窗户等关闭,其目的是为了防止()侵入屋内,造成火灾、爆炸或人员伤亡。",
         "choices": "**A、感应雷 **B、球形雷 **C、直接雷 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "一般情况下220V工频电压作用下人体的电阻为()Ω。",
         "choices": "**A、1000至2000 **B、500至1000 **C、800至1600 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在生产过程中,静电对人体,对设备,对产品都是有害的,要消除或减弱静电,可使用喷雾增湿剂,这样做的目的是()。",
         "choices": "**A、使静电沿绝缘体表面泄露 **B、使静电荷向四周散发泄漏 **C、使静电荷通过空气泄漏 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "交流电路中电流比电压滞后90°,该电路属于()电路。",
         "choices": "**A、纯电容 **B、纯电感 **C、纯电阻 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "日光灯属于()光源。",
         "choices": "**A、气体放电 **B、热辐射 **C、生物放电 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电动机在额定工作状态下运行时,定子电路所加的()叫额定电压。",
         "choices": "**A、相电压 **B、线电压 **C、额定电压 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "()是登杆作业时必备的保护用具,无论用登高板或脚扣都要用其配合使用。",
         "choices": "**A、安全带 **B、手套 **C、梯子 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "交流接触器的电寿命约为机械寿命的()倍。",
         "choices": "**A、1 **B、1/20 **C、10 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "新装和大修后的低压线路和设备,要求绝缘电阻不低于()MΩ。",
         "choices": "**A、0.5 **B、1 **C、1.5 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "低压电器可归为低压配电电器和()电器。",
         "choices": "**A、低压控制 **B、低压电动 **C、电压控制 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "断路器的选用,应先确定断路器的(),然后才进行具体的参数的确定。",
         "choices": "**A、类型 **B、额定电压 **C、额定电流 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电流表的符号是()",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "为了检查可以短时停电,在触及电容器前必须()。",
         "choices": "**A、充分放电 **B、冷却之后 **C、长时间停电 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "一般照明的电源优先选用()V。",
         "choices": "**A、220 **B、36 **C、380 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "《安全生产法》规定,任何单位或者()对事故隐患或者安全生产违法行为,均有权向负有安全生产监督管理职责的部门报告或者举报。",
         "choices": "**A、个人 **B、管理人员 **C、职工 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "下面()属于顺磁性材料。",
         "choices": "**A、水 **B、空气 **C、铜 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "干粉灭火器火器可适用于()kV以下线路带电灭火。",
         "choices": "**A、10 **B、35 **C、50 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "建筑施工工地的用电机械设备()安装漏电保护装置。",
         "choices": "**A、不应 **B、应 **C、没规定 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在民用建筑物的配电系统中,一般采用()断路器。",
         "choices": "**A、框架式 **B、漏电保护 **C、电动式 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "为避免高压变配电站遭受直击雷,引发大面积停电事故,一般可用()来防雷。",
         "choices": "**A、接闪杆 **B、接闪网 **C、阀型避雷器 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电烙铁用于()导线接头等。",
         "choices": "**A、铁焊 **B、铜焊 **C、锡焊 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "移动电气设备电源应采用高强度铜芯橡皮护套软绝缘()。",
         "choices": "**A、导线 **B、电缆 **C、绞线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "稳压二极管的正常工作状态是()。",
         "choices": "**A、反向击穿状态 **B、导通状态 **C、截至状态 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "特种作业操作证每()年复审1次。",
         "choices": "**A、3 **B、4 **C、5 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "()仪表由固定的线圈,可转动的线圈及转轴、游丝、指针、机械调零机构等组成。",
         "choices": "**A、电动式 **B、电磁式 **C、磁电式 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "“禁止合闸,有人工作”的标志牌应制作为()。",
         "choices": "**A、白底红字 **B、白底绿字 **C、红底白字 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "特种作业人员在操作证有效期内,连续从事本工种10年以上,无违法行为,经考核发证机关同意,操作证复审时间可延长至()年。",
         "choices": "**A、10 **B、4 **C、6 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "当电气设备发生接地故障,接地电流通过接地体向大地流散,若人在接地短路点周围行走,其两脚间的电位差引起的触电叫()触电。",
         "choices": "**A、单相 **B、感应电 **C、跨步电压 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "热继电器的整定电流为电动机额定电流的()%。",
         "choices": "**A、100 **B、120 **C、130 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "按国际和我国标准,()线只能用做保护接地或保护接零线。",
         "choices": "**A、蓝色 **B、黄绿双色 **C、黑色 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "属于配电电器的有()。",
         "choices": "**A、接触器 **B、熔断器 **C、电阻器 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "墙边开关安装时距离地面的高度为()m。",
         "choices": "**A、1.3 **B、1.5 **C、2 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "单相三孔插座的上孔接()。",
         "choices": "**A、地线 **B、相线 **C、零线 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电伤是由电流的()效应对人体所造成的伤害。",
         "choices": "**A、化学 **B、热 **C、热、化学与机械 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在建筑物,电气设备和构筑物上能产生电效应,热效应和机械效应,具有较大的破坏作用的雷属于()。",
         "choices": "**A、感应雷 **B、球形雷 **C、直击雷 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "接地电阻测量仪是测量()的装置。",
         "choices": "**A、接地电阻 **B、直流电阻 **C、绝缘电阻 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在易燃、易爆危险场所,电气线路应采用()或者铠装电缆敷设。",
         "choices": "**A、穿水煤气管 **B、穿金属蛇皮管再沿铺砂电缆沟 **C、穿钢管 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "照明系统中的每一单相回路上,灯具与插座的数量不宜超过()个。",
         "choices": "**A、20 **B、25 **C、30 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "为了防止跨步电压对人造成伤害,要求防雷接地装置距离建筑物出入口、人行道最小距离不应小于()米。",
         "choices": "**A、2.5 **B、3 **C、4 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "图 是()触头。",
         "choices": "**A、延时断开动合 **B、延时断开动断 **C、延时闭合动合 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "对于低压配电网,配电容量在100kW以下时,设备保护接地的接地电阻不应超过()Ω。",
         "choices": "**A、10 **B、4 **C、6 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "导线的中间接头采用铰接时,先在中间互绞()圈。",
         "choices": "**A、1 **B、2 **C、3 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "当车间电气火灾发生时,应首先切断电源,切断电源的方法是()。",
         "choices": "**A、报告负责人请求断总电源 **B、拉开刀开关 **C、拉开断路器或者磁力开关 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "热继电器具有一定的()自动调节补偿功能。",
         "choices": "**A、时间 **B、温度 **C、频率 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在选择漏电保护装置的灵敏度时,要避免由于正常()引起的不必要的动作而影响正常供电。",
         "choices": "**A、泄漏功率 **B、泄漏电压 **C、泄漏电流 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "落地插座应具有牢固可靠的()。",
         "choices": "**A、保护盖板 **B、开关 **C、标志牌 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "低压断路器也称为()。",
         "choices": "**A、总开关 **B、自动空气开关 **C、闸刀 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电容器可用万用表()档进行检查。",
         "choices": "**A、电压 **B、电流 **C、电阻 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "低压带电作业时,()。",
         "choices": "**A、戴绝缘手套,不要有人监护 **B、既要戴绝缘手套,又要有人监护 **C、有人监护不必戴绝缘手套 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "静电现象是十分普遍的电现象,()是它的最大危害。",
         "choices": "**A、对人体放电,直接置人于死地 **B、易引发火灾 **C、高电压击穿绝缘 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "指针式万用表测量电阻时标度尺最右侧是()。",
         "choices": "**A、0 **B、∞ **C、不确定 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "导线接头连接不紧密,会造成接头()。",
         "choices": "**A、不导电 **B、发热 **C、绝缘不够 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "变压器和高压开关柜,防止雷电侵入产生破坏的主要措施是()。",
         "choices": "**A、安装避雷器 **B、安装避雷线 **C、安装避雷网 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "熔断器在电动机的电路中起()保护作用。",
         "choices": "**A、短路 **B、过载 **C、过载和短路 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在均匀磁场中,通过某一平面的磁通量为最大时,这个平面就和磁力线()。",
         "choices": "**A、垂直 **B、平行 **C、斜交 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "()是保证电气作业安全的技术措施之一。",
         "choices": "**A、工作票制度 **B、工作许可制度 **C、验电 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电气火灾的引发是由于危险温度的存在,其中短路、设备故障、设备非正常运行及()都可能是引发危险温度的因素。",
         "choices": "**A、导线截面选择不当 **B、电压波动 **C、设备运行时间长 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电磁力的大小与导体的有效长度成()。",
         "choices": "**A、不变 **B、反比 **C、正比 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "单相电度表主要由一个可转动铝盘和分别绕在不同铁芯上的一个()和一个电流线圈组成。",
         "choices": "**A、电压互感器 **B、电压线圈 **C、电阻 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "装设接地线,当检验明确无电压后,应立即将检修设备接地并()短路。",
         "choices": "**A、三相 **B、两相 **C、单相 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "1千伏以上的电容器组采用()接成三角形作为放电装置。",
         "choices": "**A、电压互感器 **B、电流互感器 **C、电炽灯 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电工使用的带塑料套柄的钢丝钳,其耐压为()V以上。",
         "choices": "**A、1000 **B、380 **C、500 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "摇表的两个主要组成部分是手摇()和磁电式流比计。",
         "choices": "**A、交流发电机 **B、电流互感器 **C、直流发电机 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "碘钨灯属于()光源。",
         "choices": "**A、气体放电 **B、热辐射 **C、电弧 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "下列()是保证电气作业安全的组织措施。",
         "choices": "**A、停电 **B、工作许可制度 **C、悬挂接地线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "万能转换开关的基本结构内有()。",
         "choices": "**A、反力系统 **B、线圈部分 **C、触点系统 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "避雷针是常用的避雷装置,安装时,避雷针宜设独立的接地装置,如果在非高电阻率地区,其接地电阻不宜超过()Ω。",
         "choices": "**A、10 **B、2 **C、4 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "低压电容器的放电负载通常使用()。",
         "choices": "**A、互感器 **B、灯泡 **C、线圈 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "静电引起爆炸和火灾的条件之一是()。",
         "choices": "**A、有爆炸性混合物存在 **B、有足够的温度 **C、静电能量要足够大 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "PN结两端加正向电压时,其正向电阻()。",
         "choices": "**A、不变 **B、大 **C、小 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "使用竹梯时,梯子与地面的夹角以()°为宜。",
         "choices": "**A、50 **B、60 **C、70 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "登杆前,应对脚扣进行()。",
         "choices": "**A、人体载荷冲击试验 **B、人体载荷拉伸试验 **C、人体静载荷试验 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "万用表由表头、()及转换开关三个主要部分组成。",
         "choices": "**A、指针 **B、测量电路 **C、线圈 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在一个闭合回路中,电流强度与电源电动势成正比,与电路中内电阻和外电阻之和成反比,这一定律称()。",
         "choices": "**A、全电路欧姆定律 **B、全电路电流定律 **C、部分电路欧姆定律 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "将一根导线均匀拉长为原长的2倍,则它的阻值为原阻值的()倍。",
         "choices": "**A、1 **B、2 **C、4 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "引起电光性眼炎的主要原因是()。",
         "choices": "**A、可见光 **B、紫外线 **C、红外线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "串联电路中各电阻两端电压的关系是()。",
         "choices": "**A、各电阻两端电压相等 **B、阻值越大两端电压越高 **C、阻值越小两端电压越高 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "用万用表测量电阻时,黑表笔接表内电源的()。",
         "choices": "**A、两极 **B、正极 **C、负极 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "锡焊晶体管等弱电元件应用()W的电烙铁为宜。",
         "choices": "**A、100 **B、25 **C、75 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "对照电机与其铭牌检查,主要有()、频率、定子绕组的连接方法。",
         "choices": "**A、工作制 **B、电源电压 **C、电源电流 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "我们平时称的瓷瓶,在电工专业中称为()。",
         "choices": "**A、绝缘子 **B、绝缘瓶 **C、隔离体 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "一般照明线路中,无电的依据是()。",
         "choices": "**A、用摇表测量 **B、用电流表测量 **C、用电笔验电 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "三相对称负载接成星形时,三相总电流()。",
         "choices": "**A、等于其中一相电流。 **B、等于其中一相电流的三倍 **C、等于零 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在检查插座时,电笔在插座的两个孔均不亮,首先判断题是()。",
         "choices": "**A、相线断线 **B、短路 **C、零线断线 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "熔断器的符号是()。",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "“禁止攀登,高压危险!”的标志牌应制作为()。",
         "choices": "**A、白底红字 **B、白底红边黑字 **C、红底白字 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "对颜色有较高区别要求的场所,宜采用()。",
         "choices": "**A、彩灯 **B、白炽灯 **C、紫色灯 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在铝绞线中加入钢芯的作用是()。",
         "choices": "**A、增大导线面积 **B、提高导电能力 **C、提高机械强度 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "对电机各绕组的绝缘检查,要求是:电动机每1kV工作电压,绝缘电阻()。",
         "choices": "**A、大于等于1MΩ **B、小于0.5MΩ **C、等于0.5MΩ ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "对电机轴承润滑的检查,()电动机转轴,看是否转动灵活,听有无异声。",
         "choices": "**A、用其他设备带动 **B、用手转动 **C、通电转动 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "每一照明(包括风扇)支路总容量一般不大于()kW。",
         "choices": "**A、2 **B、3 **C、4 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "对电机内部的脏物及灰尘清理,应用()。",
         "choices": "**A、布上沾汽油、煤油等抹擦 **B、湿布抹擦 **C、用压缩空气吹或用干布抹擦 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "使用剥线钳时应选用比导线直径()的刃口。",
         "choices": "**A、相同 **B、稍大 **C、较大 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "一般线路中的熔断器有()保护。",
         "choices": "**A、短路 **B、过载 **C、过载和短路 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "通电线圈产生的磁场方向不但与电流方向有关,而且还与线圈()有关。",
         "choices": "**A、体积 **B、绕向 **C、长度 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "下图的电工元件符号中属于电容器的电工符号是()。",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "人的室颤电流约为()mA。",
         "choices": "**A、16 **B、30 **C、50 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "运输液化气,石油等的槽车在行驶时,在槽车底部应采用金属链条或导电橡胶使之与大地接触,其目的是()。",
         "choices": "**A、中和槽车行驶中产生的静电荷 **B、使槽车与大地等电位 **C、泄漏槽车行驶中产生的静电荷 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "()仪表由固定的永久磁铁,可转动的线圈及转轴、游丝、指针、机械调零机构等组成。",
         "choices": "**A、感应式 **B、电磁式 **C、磁电式 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "人体体内电阻约为()Ω。",
         "choices": "**A、200 **B、300 **C、500 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "()仪表可直接用于交、直流测量,但精确度低。",
         "choices": "**A、电动式 **B、电磁式 **C、磁电式 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "导线接头要求应接触紧密和()等。",
         "choices": "**A、不会发热 **B、拉不断 **C、牢固可靠 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "纯电容元件在电路中()电能。",
         "choices": "**A、储存 **B、分配 **C、消耗 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "特种作业人员未按规定经专门的安全作业培训并取得相应资格,上岗作业的,责令生产经营单位()。",
         "choices": "**A、停产停业整顿 **B、罚款 **C、限期改正 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "行程开关的组成包括有()。",
         "choices": "**A、保护部分 **B、反力系统 **C、线圈部分 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在易燃、易爆危险场所,电气设备应安装()的电气设备。",
         "choices": "**A、安全电压 **B、密封性好 **C、防爆型 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "静电防护的措施比较多,下面常用又行之有效的可消除设备外壳静电的方法是()。",
         "choices": "**A、串接 **B、接地 **C、接零 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电感式日光灯镇流器的内部是()。",
         "choices": "**A、振荡电路 **B、电子电路 **C、线圈 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "钳形电流表由电流互感器和带()的磁电式表头组成。",
         "choices": "**A、指针 **B、整流装置 **C、测量电路 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "6~10kV架空线路的导线经过居民区时线路与地面的最小距离为()米。",
         "choices": "**A、5 **B、6 **C、6.5 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "铁壳开关的电气图形为(),文字符号为QS。",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "断路器是通过手动或电动等操作机构使断路器合闸,通过()装置使断路器自动跳闸,达到故障保护目的。",
         "choices": "**A、活动 **B、脱扣 **C、自动 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在电力控制系统中,使用最广泛的是()式交流接触器。",
         "choices": "**A、气动 **B、液动 **C、电磁 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "暗装的开关及插座应有()。",
         "choices": "**A、明显标志 **B、盖板 **C、警示标志 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在一般场所,为保证使用安全,应选用()电动工具。",
         "choices": "**A、Ⅰ类 **B、Ⅱ类 **C、Ⅲ类 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "漏电保护断路器在设备正常工作时,电路电流的相量和(),开关保持闭合状态。",
         "choices": "**A、为正 **B、为负 **C、为零 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "据一些资料表明,心跳呼吸停止,在()min内进行抢救,约80%可以救活。",
         "choices": "**A、1 **B、2 **C、3 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "一般照明场所的线路允许电压损失为额定电压的()。",
         "choices": "**A、±10% **B、±15% **C、±5% ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在电路中,开关应控制()。",
         "choices": "**A、地线 **B、相线 **C、零线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "螺旋式熔断器的电源进线应接在()。",
         "choices": "**A、上端 **B、下端 **C、前端 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在电气线路安装时,导线与导线或导线与电气螺栓之间的连接最易引发火灾的连接工艺是()。",
         "choices": "**A、铜线与铝线绞接 **B、铜铝过渡接头压接 **C、铝线与铝线绞接 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "熔断器的保护特性又称为()。",
         "choices": "**A、安秒特性 **B、时间性 **C、灭弧特性 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "Ⅰ类电动工具的绝缘电阻要求不低于()。",
         "choices": "**A、1MΩ **B、2MΩ **C、3MΩ ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "从制造角度考虑,低压电器是指在交流50Hz、额定电压()V或直流额定电压1500V及以下电气设备。",
         "choices": "**A、1000 **B、400 **C、800 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "线路或设备的绝缘电阻的测量是用()测量。",
         "choices": "**A、万用表的电阻档 **B、兆欧表 **C、接地摇表 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "保险绳的使用应()。",
         "choices": "**A、低挂调用 **B、保证安全 **C、高挂低用 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "低压电器按其动作方式又可分为自动切换电器和()电器。",
         "choices": "**A、非机械 **B、非电动 **C、非自动切换 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电流对人体的热效应造成的伤害是()。",
         "choices": "**A、电烙印 **B、电烧伤 **C、皮肤金属化 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "()仪表由固定的线圈,可转动的铁芯及转轴、游丝、指针、机械调零机构等组成。",
         "choices": "**A、感应式 **B、电磁式 **C、磁电式 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "测量接地电阻时,电位探针应接在距接地端()m的地方。",
         "choices": "**A、20 **B、40 **C、5 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "主令电器很多,其中有()。",
         "choices": "**A、接触器 **B、热继电器 **C、行程开关 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "确定正弦量的三要素为()。",
         "choices": "**A、周期、频率、角频率 **B、最大值、频率、初相角 **C、相位、初相位、相位差 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "安培定则也叫()。",
         "choices": "**A、右手定则 **B、右手螺旋法则 **C、左手定则 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在半导体电路中,主要选用快速熔断器做()保护。",
         "choices": "**A、短路 **B、过压 **C、过热 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "人体直接接触带电设备或线路中的一相时,电流通过人体流入大地,这种触电现象称为()触电。",
         "choices": "**A、三相 **B、两相 **C、单相 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "选择电压表时,其内阻()被测负载的电阻为好。",
         "choices": "**A、等于 **B、远大于 **C、远小于 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "指针式万用表一般可以测量交直流电压、()电流和电阻。",
         "choices": "**A、交流 **B、交直流 **C、直流 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "下列现象中,可判定是接触不良的是()。",
         "choices": "**A、日光灯启动困难 **B、灯泡不亮 **C、灯泡忽明忽暗 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电容器属于()设备。",
         "choices": "**A、危险 **B、运动 **C、静止 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "特种作业操作证有效期为()年。",
         "choices": "**A、12 **B、6 **C、8 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "钳形电流表使用时应先用较大量程,然后在视被测电流的大小变换量程。切换量程时应()。",
         "choices": "**A、一边进线一边换挡 **B、先退出导线,再转动量程开关 **C、直接转动量程开关 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "高压验电器的发光电压不应高于额定电压的()%。",
         "choices": "**A、25 **B、50 **C、75 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "螺丝刀的规格是以柄部外面的杆身长度和()表示。",
         "choices": "**A、半径 **B、厚度 **C、直径 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电气火灾发生时,应先切断电源再扑救,但不知或不清楚开关在何处时,应剪断电线,剪切时要()。",
         "choices": "**A、不同相线在不同位置剪断 **B、几根线迅速同时剪断 **C、在同一位置一根一根剪断 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "导线接头、控制器触点等接触不良是诱发电气火灾的重要原因。所谓“接触不良”,其本质原因是()。",
         "choices": "**A、触头、接触点电阻变化引发过电压 **B、触头、接触点电阻变大引起功耗增大 **C、触头接触点电阻变小 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "接地线应用多股软裸铜线,其截面积不得小于()m㎡。",
         "choices": "**A、10 **B、25 **C、6 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "当发现电容器有损伤或缺陷时,应该()。",
         "choices": "**A、丢弃 **B、自行修理 **C、送回修理 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "根据线路电压等级和用户对象,电力线路可分为配电线路和()线路。",
         "choices": "**A、动力 **B、照明 **C、送电 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在对可能存在较高跨步电压的接地故障点进行检查时,室内不得接近故障点()m以内。",
         "choices": "**A、2 **B、3 **C、4 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "绝缘材料的耐热等级为E级时,其极限工作温度为()℃。",
         "choices": "**A、105 **B、120 **C、90 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "用摇表测量电阻的单位是()。",
         "choices": "**A、兆欧 **B、千欧 **C、欧姆 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "对电机各绕组的绝缘检查,如测出绝缘电阻为零,在发现无明显烧毁的现象时,则可进行烘干处理,这时()通电运行。",
         "choices": "**A、不允许 **B、允许 **C、烘干好后就可 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "照明线路熔断器的熔体的额定电流取线路计算电流的()倍。",
         "choices": "**A、0.9 **B、1.1 **C、1.5 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "雷击产生的高电压可和耀眼的白光可对电气装置和建筑物及其他设施造成毁坏,电力设施或电力线路遭破坏可能导致大规模停电。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为了有明显区别,并列安装的同型号开关应不同高度,错落有致。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "用万用表R×1kΩ欧姆档测量二极管时,红表笔接一只脚,黑表笔接另一只脚测得的电阻值约为几百欧姆,反向测量时电阻值很大,则该二极管是好的。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电工钳、电工刀、螺丝刀是常用电工基本工具。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在设备运行中,发生起火的原因是电流热量是间接原因,而火花或电弧则是直接原因。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "雷电后造成架空线路产生高电压冲击波,这种雷电称为直击雷。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在选择导线时必须考虑线路投资,但导线截面积不能太小。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在带电灭火时,如果用喷雾水枪应将水枪喷嘴接地,并穿上绝缘靴和戴上绝缘手套,才可进行灭火操作。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "用钳表测量电流时,尽量将导线置于钳口铁芯中间,以减少测量误差。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "PN结正向导通时,其内外电场方向一致。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "使用手持式电动工具应当检查电源开关是否失灵、是否破损、是否牢固、接线是否松动。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "当电气火灾发生时首先应迅速切断电源,在无法切断电源的情况下,应迅速选择干粉、二氧化碳等不导电的灭火器材进行灭火。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "不同电压的插座应有明显区别。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "除独立避雷针之外,在接地电阻满足要求的前提下,防雷接地装置可以和其他接地装置共用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "接了漏电开关之后,设备外壳就不需要再接地或接零了。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "接地电阻测试仪就是测量线路的绝缘电阻的仪器。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "高压水银灯的电压比较高,所以称为高压水银灯。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "低压断路器是一种重要的控制和保护电器,断路器都装有灭弧装置,因此可以安全地带负荷合、分闸。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "万用表使用后,转换开关可置于任意位置。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "通电时间增加,人体电阻因出汗而增加,导致通过人体的电流减小。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "万能转换开关的定位结构一般采用滚轮卡转轴辐射型结构。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "RCD后的中性线可以接地。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电子镇流器的功率因数高于电感式镇流器。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "静电现象是很普遍的电现象,其危害不小,固体静电可达200kV以上,人体静电也可达10KV以上。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "为安全起见,更换熔断器时,最好断开负载。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "当静电的放电火花能量足够大时,能引起火灾和爆炸事故,在生产过程中静电还会妨碍生产和降低产品质量等。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在有爆炸和火灾危险的场所,应尽量少用或不用携带式、移动式的电气设备。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在采用多级熔断器保护中,后级熔体的额定电流比前级大,以电源端为最前端。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在供配电系统和设备自动系统中,刀开关通常用于电源隔离。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "日常电气设备的维护和保养应由设备管理人员负责。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "熔断器的特性,是通过熔体的电压值越高,熔断时间越短。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电压表在测量时,量程要大于等于被测线路电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "有美尼尔氏征的人不得从事电工作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "事故照明不允许和其它照明共用同一线路。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "路灯的各回路应有保护,每一灯具宜设单独熔断器。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "交流接触器常见的额定最高工作电压达到6000V。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "剩余动作电流小于或等于0.3A的RCD属于高灵敏度RCD。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在高压操作中,无遮拦作业人体或其所携带工具与带电体之间的距离应不少于0.7m。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在三相交流电路中,负载为星形接法时,其相电压等于三相电源的线电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "多用螺钉旋具的规格是以它的全长(手柄加旋杆)表示。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "用电笔检查时,电笔发光就说明线路一定有电。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电压表内阻越大越好。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "移动电气设备电源应采用高强度铜芯橡皮护套硬绝缘电缆。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为改善电动机的启动及运行性能,笼形异步电动机转子铁芯一般采用直槽结构。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为了安全,高压线路通常采用绝缘导线。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "Ⅲ类电动工具的工作电压不超过50V。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "铜线与铝线在需要时可以直接连接。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电流表的内阻越小越好。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "民用住宅严禁装设床头开关。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "交流电流表和电压表测量所测得的值都是有效值。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对于在易燃、易爆、易灼烧及有静电发生的场所作业的工作人员,不可以发放和使用化纤防护用品。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "可以用相线碰地线的方法检查地线是否接地良好。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "雷电时,应禁止在屋外高空检修、试验和屋内验电等作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "手持式电动工具接线可以随意加长。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "漏电开关跳闸后,允许采用分路停电再送电的方式检查线路。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "当导体温度不变时,通过导体的电流与导体两端的电压成正比,与其电阻成反比。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "Ⅱ类设备和Ⅲ类设备都要采取接地或接零措施。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "符号“A”表示交流电源。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "三相异步电动机的转子导体中会形成电流,其电流方向可用右手定则判定。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "雷电可通过其它带电体或直接对人体放电,使人的身体遭到巨大的破坏直至死亡。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "为了避免静电火花造成爆炸事故,凡在加工运输,储存等各种易燃液体、气体时,设备都要分别隔离。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电动势的正方向规定为从低电位指向高电位,所以测量时电压表应正极接电源负极、而电压表负极接电源的正极。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为了防止电气火花,电弧等引燃爆炸物,应选用防爆电气级别和温度组别与环境相适应的防爆电气设备。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "剥线钳是用来剥削小导线头部表面绝缘层的专用工具。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "转子串频敏变阻器启动的转矩大,适合重载启动。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "《中华人民共和国安全生产法》第二十七条规定:生产经营单位的特种作业人员必须按照国家有关规定经专门的安全作业培训,取得相应资格,方可上岗作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "取得高级电工证的人员就可以从事电工作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "二氧化碳灭火器带电灭火只适用于600V以下的线路,如果是10kV或者35kV线路,如要带电灭火只能选择干粉灭火器。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "万用表在测量电阻时,指针指在刻度盘中间最准确。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "移动电气设备可以参考手持电动工具的有关要求进行使用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "触电事故是由电能以电流形式作用人体造成的事故。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "雷电按其传播方式可分为直击雷和感应雷两种。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "剩余电流动作保护装置主要用于1000V以下的低压系统。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "并联电容器所接的线停电后,必须断开电容器组。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "吸收比是用兆欧表测定。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "改变转子电阻调速这种方法只适用于绕线式异步电动机。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对于开关频繁的场所应采用白炽灯照明。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "相同条件下,交流电比直流电对人体危害较大。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "RCD的额定动作电流是指能使RCD动作的最大电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电流的大小用电流表来测量,测量时将其并联在电路中。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "雷雨天气,即使在室内也不要修理家中的电气线路、开关、插座等。如果一定要修要把家中电源总开关拉开。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "测量交流电路的有功电能时,因是交流电,故其电压线圈、电流线圈和各两个端可任意接在线路上。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "摇测大容量设备吸收比是测量(60秒)时的绝缘电阻与(15秒)时的绝缘电阻之比。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "刀开关在作隔离开关选用时,要求刀开关的额定电流要大于或等于线路实际的故障电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "测量电机的对地绝缘电阻和相间绝缘电阻,应该使用兆欧表,而不能使用万用表。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电容器的放电负载不能装设熔断器或开关。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在我国,超高压送电线路基本上是架空敷设。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "日光灯点亮后,镇流器起降压限流作用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "企业、事业单位的职工无特种作业操作证从事特种作业,属违章作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在电气原理图中,当触点图形垂直放置时,以“左开右闭”原则绘制。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "特种作业人员必须年满20周岁,且不超过国家法定退休年龄。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "使用改变磁极对数来调速的电机一般都是绕线型转子电动机。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "用避雷针、避雷带是防止雷电破坏电力设备的主要措施。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电容器室内应有良好的通风。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "使用万用表测量电阻,每换一次欧姆档都要进行欧姆调零。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电气设备缺陷,设计不合理,安装不当等都是引发火灾的重要原因。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "几个电阻并联后的总电阻等于各并联电阻的倒数之和。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "吊灯安装在桌子上方时,与桌子的垂直距离不少于1.5m。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "一号电工刀比二号电工刀的刀柄长度长。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "无论在任何情况下,三极管都具有电流放大功能。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电工应做好用电人员在特殊场所作业的监护作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "交流接触器的额定电流,是在额定的工作条件下所决定的电流值。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "补偿电容器的容量越大越好。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电工应严格按照操作规程进行作业。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "旋转电器设备着火时不宜用干粉灭火器灭火。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "测量电流时应把电流表串联在被测电路中。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "当灯具达不到最小高度时,应采用24V以下电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "RCD的选择,必须考虑用电设备和电路正常泄漏电流的影响。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "使用兆欧表前不必切断被测设备的电源。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "危险场所室内的吊灯与地面距离不少于3m。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "当电容器爆炸时,应立即检查。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "防雷装置应沿建筑物的外墙敷设,并经最短途径接地,如有特殊要求可以暗设。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电气安装接线图中,同一电器元件的各部分必须画在一起。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "验电器在使用前必须确认验电器良好。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "组合开关在选作直接控制电机时,要求其额定电流可取电动机额定电流的2~3倍。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "当电容器测量时万用表指针摆动后停止不动,说明电容器短路。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "白炽灯属热辐射光源。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "特种作业操作证每1年由考核发证部门复审一次。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在没有用验电器验电前,线路应视为有电。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "“止步,高压危险”的标志牌的式样是白底、红边,有红色箭头。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "对于容易产生静电的场所,应保持地面潮湿,或者铺设导电性能较好的地板。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在断电之后,电动机停转,当电网再次来电,电动机能自行起动的运行方式称为失压保护。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电工刀的手柄是无绝缘保护的,不能在带电导线或器材上剖切,以免触电。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在串联电路中,电路总电压等于各电阻的分电压之和。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "使用万用表电阻档能够测量变压器的线圈电阻。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "用星-三角降压启动时,启动转矩为直接采用三角形联结时启动转矩的1/3。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电工作业分为高压电工和低压电工。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "摇表在使用前,无须先检查摇表是否完好,可直接对被测设备进行绝缘测量。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "幼儿园及小学等儿童活动场所插座安装高度不宜小于1.8m。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "用钳表测量电动机空转电流时,不需要档位变换可直接进行测量。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在高压线路发生火灾时,应采用有相应绝缘等级的绝缘工具,迅速拉开隔离开关切断电源,选择二氧化碳或者干粉灭火器进行灭火。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "按钮根据使用场合,可选的种类有开启式、防水式、防腐式、保护式等。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电度表是专门用来测量设备功率的装置。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "当拉下总开关后,线路即视为无电。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "使用电气设备时,由于导线截面选择过小,当电流较大时也会因发热过大而引发火灾。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "按照通过人体电流的大小,人体反应状态的不同,可将电流划分为感知电流、摆脱电流和室颤电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "因闻到焦臭味而停止运行的电动机,必须找出原因后才能再通电使用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "直流电流表可以用于交流电路测量。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "用电笔验电时,应赤脚站立,保证与大地有良好的接触。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "带电机的设备,在电机通电前要检查电机的辅助设备和安装底座,接地等,正常后再通电使用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "Ⅱ类手持电动工具比Ⅰ类工具安全可靠。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "特种作业人员未经专门的安全作业培训,未取得相应资格,上岗作业导致事故的,应追究生产经营单位有关人员的责任。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "10kV以下运行的阀型避雷器的绝缘电阻应每年测量一次。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电工特种作业人员应当具备高中或相当于高中以上文化程度。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "为了安全可靠,所有开关均应同时控制相线和零线。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "交流钳形电流表可测量交直流电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "螺口灯头的台灯应采用三孔插座。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "电压的大小用电压表来测量,测量时将其串联在电路中。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "用钳表测量电动机空转电流时,可直接用小电流档一次测量出来。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电机在正常运行时,如闻到焦臭味,则说明电动机速度过快。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "工频电流比高频电流更容易引起皮肤灼伤。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "接触器的文字符号为KM。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在爆炸危险场所,应采用三相四线制,单相三线制方式供电。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在三相交流电路中,负载为三角形接法时,其相电压等于三相电源的线电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "当电气火灾发生时,如果无法切断电源,就只能带电灭火,并选择干粉或者二氧化碳灭火器,尽量少用水基式灭火器。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "钳形电流表可做成既能测交流电流,也能测量直流电流。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "一般情况下,接地电网的单相触电比不接地的电网的危险性小。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "截面积较小的单股导线平接时可采用绞接法。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "低压验电器可以验出500V以下的电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在带电维修线路时,应站在绝缘垫上。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "绝缘棒在闭合或拉开高压隔离开关和跌落式熔断器,装拆携带式接地线,以及进行辅助测量和试验使用。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "时间继电器的文字符号为KT。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "导线接头位置应尽量在绝缘子固定处,以方便统一扎线。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "触电者神志不清,有心跳,但呼吸停止,应立即进行口对口人工呼吸。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "在串联电路中,电流处处相等。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "锡焊晶体管等弱电元件应用100W的电烙铁。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "从过载角度出发,规定了熔断器的额定电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "在直流电路中,常用棕色表示正极。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "接地电阻表主要由手摇发电机、电流互感器、电位器以及检流计组成。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "单相220V电源供电的电气设备,应选用三极式漏电保护装置。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "当采用安全特低电压作直接电击防护时,应选用25V及以下的安全电压。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "TT系统是配电网中性点直接接地,用电设备外壳也采用接地措施的系统。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "我国正弦交流电的频率为50Hz。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "判断题",
         "title": "欧姆定律指出,在一个闭合电路中,当导体温度不变时,通过导体的电流与加在导体两端的电压成反比,与其电阻成正比。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "漏电开关只有在有人触电时才会动作。",
         "choices": "**A、正确**B、错误",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "判断题",
         "title": "电气控制系统图包括电气原理图和电气安装图。",
         "choices": "**A、正确**B、错误",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "TN-S俗称()。",
         "choices": "**A、三相三线 **B、三相五线 **C、三相四线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "(GB/T3805-2008)《特低电压(ELV)限值》中规定,在正常环境下,正常工作时工频电压有效值的限值为()V。",
         "choices": "**A、33 **B、55 **C、70 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "连接电容器的导线的长期允许电流不应小于电容器额定电流的()%。",
         "choices": "**A、110 **B、120 **C、130 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "当一个熔断器保护一只灯时,熔断器应串联在开关()",
         "choices": "**A、中 **B、前 **C、后 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "组合开关用于电动机可逆控制时,()允许反向接通。",
         "choices": "**A、不必在电动机完全停转后就 **B、可在电动机停后就 **C、必须在电动机完全停转后才 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "我们使用的照明电压为220V,这个值是交流电的()。",
         "choices": "**A、恒定值 **B、最大值 **C、有效值 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "三相异步电动机一般可直接启动的功率为()kW以下。",
         "choices": "**A、10 **B、16 **C、7 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "()的电机,在通电前,必须先做各绕组的绝缘电阻检查,合格后才可通电。",
         "choices": "**A、一直在用,停止没超过一天 **B、不常用,但电机刚停止不超过一天 **C、新装或未用过的 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "交流10kV母线电压是指交流三相三线制的()。",
         "choices": "**A、相电压 **B、线电压 **C、线路电压 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "螺口灯头的螺纹应与()相接。",
         "choices": "**A、地线 **B、相线 **C、零线 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在采用多级熔断器保护中,后级的熔体额定电流比前级大,目的是防止熔断器越级熔断而()。",
         "choices": "**A、减小停电范围 **B、扩大停电范围 **C、查障困难 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "接闪线属于避雷装置中的一种,它主要用来保护()。",
         "choices": "**A、变配电设备 **B、房顶较大面积的建筑物 **C、高压输电线路 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "《安全生产法》立法的目的是为了加强安全生产工作,防止和减少(),保障人民群众生命和财产安全,促进经济发展。",
         "choices": "**A、火灾、交通事故 **B、生产安全事故 **C、重大、特大事故 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "接触器的电气图形为（）。",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "Ⅱ类手持电动工具是带有()绝缘的设备。",
         "choices": "**A、双重 **B、基本 **C、防护 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "断路器的电气图形为（）。",
         "choices": "**A、 **B、 **C、 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在三相对称交流电源星形连接中,线电压超前于所对应的相电压()°。",
         "choices": "**A、120 **B、30 **C、60 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在对380V电机各绕组的绝缘检查中,发现绝缘电阻(),则可初步判定为电动机受潮所致,应对电机进行烘干处理。",
         "choices": "**A、大于0.5MΩ **B、小于0.5MΩ **C、小于10MΩ ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "生产经营单位的主要负责人在本单位发生重大生产安全事故后逃匿的,由()处15日以下拘留。",
         "choices": "**A、公安机关 **B、安全生产监督管理部门 **C、检察机关 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "穿管导线内最多允许()个导线接头。",
         "choices": "**A、0 **B、1 **C、2 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电流继电器使用时其吸引线圈直接或通过电流互感器()在被控电路中。",
         "choices": "**A、串联 **B、串联或并联 **C、并联 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "笼形异步电动机降压启动能减少启动电流,但由于电机的转矩与电压的平方成(),因此降压启动时转矩减少较多。",
         "choices": "**A、反比 **B、对应 **C、正比 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "工作人员在10kV及以下电气设备上工作时,正常活动范围与带电设备的安全距离为()米。",
         "choices": "**A、0.2 **B、0.35 **C、0.5 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "带电灭火时,如用二氧化碳灭火器的机体和喷嘴距10kV以下高压带电体不得小于()米。",
         "choices": "**A、0.4 **B、0.7 **C、1.0 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电容量的单位是()。",
         "choices": "**A、乏 **B、安时 **C、法 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "脑细胞对缺氧最敏感,一般缺氧超过()min就会造成不可逆转的损害导致脑死亡。",
         "choices": "**A、12 **B、5 **C、8 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "测量电动机线圈对地的绝缘电阻时,摇表的L、E;两个接线柱应（）。",
         "choices": "**A、“E”接在电动机出线的端子,“L”接电动机的外壳 **B、“L”接在电动机出线的端子,“E”接电动机的外壳 **C、随便接,没有规定 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "一般电器所标或仪表所指示的交流电压、电流的数值是()。",
         "choices": "**A、平均值 **B、最大值 **C、有效值 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "当空气开关动作后,用手触摸其外壳,发现开关外壳较热,则动作的可能是()。",
         "choices": "**A、欠压 **B、短路 **C、过载 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "雷电流产生的()电压和跨步电压可直接使人触电死亡。",
         "choices": "**A、感应 **B、接触 **C、直击 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "下列材料中,导电性能最好的是()。",
         "choices": "**A、铁 **B、铜 **C、铝 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "并联电容器的联接应采用()联接。",
         "choices": "**A、三角形 **B、星形 **C、矩形 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "钳形电流表测量电流时,可以在()电路的情况下进行。",
         "choices": "**A、不断开 **B、断开 **C、短接 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "固定电源或移动式发电机供电的移动式机械设备,应与供电电源的()有金属性的可靠连接。",
         "choices": "**A、外壳 **B、接地装置 **C、零线 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "测量电压时,电压表应与被测电路()。",
         "choices": "**A、串联 **B、并联 **C、正接 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电容器组禁止()。",
         "choices": "**A、停电合闸 **B、带电合闸 **C、带电荷合闸 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "在狭窄场所如锅炉、金属容器、管道内作业时应使用()工具。",
         "choices": "**A、Ⅰ类 **B、Ⅱ类 **C、Ⅲ类 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "当电压为5V时,导体的电阻值为5欧,那么当电阻两端电压为2V时,导体的电阻值为()欧。",
         "choices": "**A、10 **B、2 **C、5 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "万用表实质是一个带有整流器的()仪表。",
         "choices": "**A、电动式 **B、电磁式 **C、磁电式 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "相线应接在螺口灯头的()。",
         "choices": "**A、中心端子 **B、外壳 **C、螺纹端子 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电容器测量之前必须()。",
         "choices": "**A、充分放电 **B、充满电 **C、擦拭干净 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "绝缘手套属于()安全用具。",
         "choices": "**A、基本 **B、直接 **C、辅助 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "正确选用电器应遵循的两个基本原则是安全原则和()原则。",
         "choices": "**A、功能 **B、性能 **C、经济 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "电机在正常运行时的声音,是平稳、轻快、()和有节奏的。",
         "choices": "**A、均匀 **B、尖叫 **C、摩擦 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "并联电力电容器的作用是()。",
         "choices": "**A、提高功率因数 **B、维持电流 **C、降低功率因数 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "当电气火灾发生时,应首先切断电源再灭火,但当电源无法切断时,只能带电灭火,500V低压配电柜灭火可选用的灭火器是()。",
         "choices": "**A、二氧化碳灭火器 **B、水基式灭火器 **C、泡沫灭火器 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "交流接触器的机械寿命是指在不带负载的操作次数,一般达()。",
         "choices": "**A、10000万次以上 **B、10万次以下 **C、600至1000万次 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "防静电的接地电阻要求不大于()Ω。",
         "choices": "**A、10 **B、100 **C、40 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "按照计数方法,电工仪表主要分为指针式仪表和()式仪表。",
         "choices": "**A、数字 **B、比较 **C、电动 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电容器的功率属于()。",
         "choices": "**A、无功功率 **B、有功功率 **C、视在功率 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "低压电工作业是指对()V以下的电气设备进行安装、调试、运行操作等的作业。",
         "choices": "**A、1000 **B、250 **C、500 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "人体同时接触带电设备或线路中的两相导体时,电流从一相通过人体流入另一相,这种触电现象称为()触电。",
         "choices": "**A、两相 **B、单相 **C、感应电 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "()仪表可直接用于交、直流测量,且精确度高。",
         "choices": "**A、电动式 **B、电磁式 **C、磁电式 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "在不接地系统中,如发生单相接地故障时,其它相线对地电压会()。",
         "choices": "**A、不变 **B、升高 **C、降低 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "载流导体在磁场中将会受到()的作用。",
         "choices": "**A、电动势 **B、电磁力 **C、磁通 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "电动机在额定工作状态下运行时,()的机械功率叫额定功率。",
         "choices": "**A、允许输入 **B、允许输出 **C、推动电机 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "国家标准规定凡()kW以上的电动机均采用三角形接法。",
         "choices": "**A、3 **B、4 **C、7.5 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "带电体的工作电压越高,要求其间的空气距离()。",
         "choices": "**A、一样 **B、越大 **C、越小 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "合上电源开关,熔丝立即烧断,则线路()。",
         "choices": "**A、漏电 **B、电压太高 **C、短路 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "手持电动工具按触电保护方式分为()类。",
         "choices": "**A、2 **B、3 **C、4 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "在易燃、易爆危险场所,供电线路应采用()方式供电。",
         "choices": "**A、单相三线制,三相五线制 **B、单相三线制,三相四线制 **C、单相两线制,三相五线制 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "电容器的功率的单位是()。",
         "choices": "**A、乏 **B、伏安 **C、瓦 ",
-        "answer": "A"
+        "answers": "A"
     },
     {
         "category": "单选题",
         "title": "异步电动机在启动瞬间,转子绕组中感应的电流很大,使定子流过的启动电流也很大,约为额定电流的()倍。",
         "choices": "**A、2 **B、4至7 **C、9至10 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "应装设报警式漏电保护器而不自动切断电源的是()。",
         "choices": "**A、招待所插座回路 **B、消防用电梯 **C、生产用的电气设备 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "事故照明一般采用()。",
         "choices": "**A、日光灯 **B、白炽灯 **C、高压汞灯 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "下列灯具中功率因数最高的是()。",
         "choices": "**A、日光灯 **B、白炽灯 **C、节能灯 ",
-        "answer": "B"
+        "answers": "B"
     },
     {
         "category": "单选题",
         "title": "线路单相短路是指()。",
         "choices": "**A、功率太大 **B、电流太大 **C、零火线直接接通 ",
-        "answer": "C"
+        "answers": "C"
     },
     {
         "category": "单选题",
         "title": "更换熔体时,原则上新熔体与旧熔体的规格要()。",
         "choices": "**A、不同 **B、更新 **C、相同 ",
-        "answer": "C"
+        "answers": "C"
     }
 ]

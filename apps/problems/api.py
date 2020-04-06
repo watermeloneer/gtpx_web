@@ -25,11 +25,9 @@ class ProblemTempListApi(generics.ListAPIView):
         level = int(self.request.query_params.get('level', 0))
         chapter = int(self.request.query_params.get('chapter', 0))
         category = self.request.query_params.get('category')
-        # look_type = int(self.request.query_params.get('look_type', 0))
-        # 背题模式所有类型题目都能查看，做题模式不需要返回lookup_only=True类型的题目
-        filer_params = {'course': course, 'chapter': chapter, 'level': level}
-        # if look_type:# 做题模式
-        #     filer_params['category__in'] = range(4)
+        # filer_params = {'course': course, 'chapter': chapter, 'level': level}
+        filer_params = {'course': course, 'chapter': chapter}
+
         if category:
             filer_params['category'] = int(category)
 
@@ -45,9 +43,9 @@ class ChapterTempListApi(generics.ListAPIView):
     def get_queryset(self):
         # course = self.request.user.choices
         course = self.request.user.course.num
-        level = int(self.request.query_params.get('level', 0))
-
-        return ChapterTemp.objects.filter(course=course, level=level).order_by('id')
+        # level = int(self.request.query_params.get('level', 0))
+        # return ChapterTemp.objects.filter(course=course, level=level).order_by('id')
+        return ChapterTemp.objects.filter(course=course).order_by('id')
 
 
 

@@ -36,11 +36,12 @@ def create_exam(request):
     user = request.user
     # course = user.choices
     course = user.course.num
-    level = int(request.GET.get('level', 1))
-    if course == 11:
-        level = 0
-    problem_str = gen_problems_str(course=course, level=level)
-    exam = Exam(course=course, level=level, problem_str=problem_str, user=user)
+    # level = int(request.GET.get('level', 1))
+    # if course == 11:
+    #     level = 0
+    # problem_str = gen_problems_str(course=course, level=level)
+    problem_str = gen_problems_str(course=course)
+    exam = Exam(course=course, problem_str=problem_str, user=user)
     exam.save()
     user.left_exam_count -= 1
     user.save()

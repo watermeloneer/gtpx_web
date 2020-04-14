@@ -14,7 +14,7 @@ from apps.problems.models import ProbelmTemp, ChapterTemp
 from study.settings import BASE_DIR
 
 
-DATA_DIR = os.path.join(BASE_DIR, 'source_data/xlsx')
+DATA_DIR = os.path.join(BASE_DIR, 'source_data/xlsx/2020')
 
 LEVEL = 0  #全国
 # LEVEL = 1 # 省级
@@ -50,7 +50,11 @@ def run():
         # parse_left_operater('省级高处作业.xlsx', course_id=10)
         # parse_left_operater('新电焊国家题库2018.xlsx', course_id=11)
         # parse_left_operater('省级低压电工题库.xlsx', course_id=9)
-        parse_left_operater('2020_01_21特种设备安全管理.xlsx', course_id=12)
+        # parse_left_operater('2020_01_21特种设备安全管理.xlsx', course_id=12)
+        parse_left_operater('观光车总题库.xlsx', course_id=202008)
+        parse_left_operater('特种设备安全管理.xlsx', course_id=202007)
+        parse_left_operater('一般企业安全负责人.xlsx', course_id=202006)
+        parse_left_operater('一般企业安全管理员.xlsx', course_id=202005)
     except :
         traceback.print_exc()
 
